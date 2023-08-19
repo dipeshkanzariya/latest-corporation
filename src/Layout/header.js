@@ -4,7 +4,7 @@ function Header() {
     return (
         <>
             <nav class="navbar navbar-expand-lg bg-light navbar-light header" >
-                <div class="container-fluid">
+                <div class="container">
                     <Link class="navbar-brand" to="/"><img className="logo" src="https://latestcorporation.com/assets/img/logol.png" alt=""/></Link>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
@@ -25,9 +25,8 @@ function Header() {
                                     Products
                                 </Link>
                                 <ul class="dropdown-menu">
-                                    <li><Link class="dropdown-item" to="/products/brass">Brass Products</Link></li>
-                                    <li><Link class="dropdown-item" to="/products/kitchensink">Kitchen Sink </Link></li>
-                                    
+                                    <li><Link class="dropdown-item" to="/products/brass">Brass</Link></li>
+                                    <li><Link class="dropdown-item" to="/products/kitchensink">Kitchen Sink</Link></li>     
                                 </ul>
                             </li>
                         </ul>
