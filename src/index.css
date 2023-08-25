@@ -31,3 +31,61 @@ code {
 
   z-index: 2;
 }
+
+h4 {
+  color: white;
+font-size: 25px;
+font-family: 'Nunito Sans', sans-serif;
+}
+ul{
+padding-inline-start: 0px;
+}
+
+
+li{
+list-style: none;
+font-size: small;
+}
+a{
+text-decoration: none;
+color: white;
+}
+a:hover{
+color: #ffffff;
+text-decoration: none;
+}
+
+.poweredBy{
+margin-top: 10px;
+position: absolute;
+bottom: 10px;
+left: 50%;
+transform: translate(-50% , -50%);
+font-size: 60%;
+
+
+}
+
+.footer-container{
+
+position: relative;
+min-width: 100%;
+font-family: 'Nunito Sans', sans-serif;	
+}
+
+.info{
+
+text-align: justify;
+}
+
+@media only screen and (max-width: 400px){
+
+.poweredBy{
+  font-size: 5px;
+}
+
+table{
+  font-size: 12px;
+}
+
+}

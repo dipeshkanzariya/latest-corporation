@@ -27,7 +27,6 @@ root.render(
             <Route path='/products/brass/:id' element = {<BrassProductById />}></Route>
             <Route path='/products/kitchensink' element = {< KitchenSink/>}></Route>
             <Route path='/products/kitchensink/:id' element = {< KitchenSinkById/>}></Route>
-
           </Route>
       </Routes>
     </BrowserRouter>
