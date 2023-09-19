@@ -1,85 +1,79 @@
 import { Link } from "react-router-dom";
+import "../main.css";
 
 function Header() {
     return (
         <>
-            {/* Header Start */}
-            <header>
-                {/* Navbar start */}
-                <nav class="navbar navbar-expand-lg bg-dark p-4">
+            {/* Header start */}
+            <header id="main-header">
+        {/* <!--//==Navbar Start==//--> */}
+        <div id="main-menu" class="wa-main-menu">
+            <div class="wathemes-menu relative">
+                <div class="navbar navbar-default navbar-bg-light" role="navigation">
                     <div class="container-fluid">
-                        <div style={{ width: 50 + "%" }}>
-                            <a class="navbar-brand " href="..">
-                                <img src="https://latestcorporation.com/assets/img/logol.png" alt="Logo" width="250" height="80" class="img-fluid bg-white" />
-                            </a>
-                        </div>
-                        <div class="collapse navbar-collapse" id="navbarNav">
-                            <ul class="navbar-nav">
-                                <li class="nav-item">
-                                    <a class="nav-link active text-light fw-bold fs-6" href="..">Home</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link text-light fw-bold fs-6" href="..">Features</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link text-light fw-bold fs-6" href="..">Pricing</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link text-light fw-bold fs-6">Disabled</a>
-                                </li>
-                            </ul>
-                            <ul class="navbar-nav ms-auto flex-row justify-content-center text-light">
-                                <li><i class="fa-brands fa-facebook mx-2"></i></li>
-                                <li><i class="fa-brands fa-whatsapp mx-2"></i></li>
-                                <li><i class="fa-brands fa-instagram mx-2"></i></li>
-                            </ul>
-                        </div>
-                        <div style={{ width: 50 + "%" }} className="text-end">
-                            <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                                <span class="navbar-toggler-icon"></span>
-                            </button>
-                        </div>
-                    </div>
-                </nav>
-                {/* Navbar end */}
-            </header>
-            {/* Header end */}
-            {/* <div className="header-div fixed-top">
+                        <div class="row">
+                            <div class="col-md-3 col-sm-2 col-xs-12 navbar-brand" style={{padding: 25}} >
+                                <img src="https://latestcorporation.com/assets/img/logol.png" class="img-fluid bg-white"/>
+                            </div>
+                            <div class="col-md-6 col-sm-6 col-xs-12">
+                                <div class="navbar-header">
+                                    {/* <!-- Button For Responsive toggle --> */}
+                                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                                        {/* <!-- <span class="sr-only">Toggle navigation</span> 
+                                    <span class="icon-bar"></span> 
+                                    <span class="icon-bar"></span> 
+                                    <span class="icon-bar"></span>-->*/}</button> 
+                                    {/* <!-- Logo -->
+                                    <!-- <a class="navbar-brand hidden-lg hidden-md hidden-sm" href="index.html">
+                                    <img class="site_logo" alt="Site Logo"  src="assets/img/logo-2.png" />
+                                    </a> --> */}
+                                </div>
+                                {/* <!-- Navbar Collapse --> */}
+                                <div class="navbar-collapse collapse">
+                                    {/* <!-- Right nav Start --> */}
+                                    <ul class="nav navbar-nav sm" data-menus-id="16951432453584404">
+                                        <li><a href="index.html">Home</a></li>
+                                        <li>
+                                            <a href="#">About </a>
+                                        </li>
+                                        {/* <li>
+                                            <!-- <div class="dropdown">
+                                                <button class="dropbtn">Dropdown 
+                                                  <i class="fa fa-caret-down"></i>
+                                                </button>
+                                                <div class="dropdown-content">
+                                                  <a href="#">Link 1</a>
+                                                  <a href="#">Link 2</a>
+                                                  <a href="#">Link 3</a>
+                                                </div>
+                                              </div>  -->
+                                            <a href="kitchenSink.html">Kitchen Sink</a>
+                                        </li> */}
+                                        <li>
+                                            <a href="brass.html">Brass</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Team</a>
+                                        </li>
 
-                <nav className="navbar navbar-expand-lg bg-light navbar-light header " >
-                    <div className="container">
-                        <div className=""><Link className="navbar-brand" to="/"><img className="logo img-fluid" src="https://latestcorporation.com/assets/img/logol.png" width="120" alt="" /></Link></div>
-                        <div className="">
-                            <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                                <span className="navbar-toggler-icon"></span>
-                            </button>
-                        </div>
-                        <div className="collapse navbar-collapse" id="navbarNavDropdown">
-                            <ul className="navbar-nav">
-                                <li className="nav-item">
-                                    <Link className="nav-link active" aria-current="page" to="/">Home</Link>
-                                </li>
-                                <li className="nav-item">
-                                    <Link className="nav-link" to="/aboutUs">About</Link>
-                                </li>
-                                <li className="nav-item">
-                                    <Link className="nav-link" to="/contact">Contact Us</Link>
-                                </li>
-                                <li className="nav-item dropdown">
-                                    <Link className="nav-link dropdown-toggle" to="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                        Products
-                                    </Link>
-                                    <ul className="dropdown-menu">
-                                        <li><Link className="dropdown-item" to="/products/brass">Brass</Link></li>
-                                        <li><Link className="dropdown-item" to="/products/kitchensink">Kitchen Sink</Link></li>
+                                        <li><a href="contactUs.html">Contact</a></li>
                                     </ul>
-                                </li>
-                            </ul>
+                                    {/* <!-- /.Right nav  End--> */}
+                                </div>
+                                {/* <!-- /.navbar-collapse --> */}
+                            </div>
+                            {/* <!-- /.nav Col --> */}
+                            
                         </div>
-
+                        {/* <!-- /.row --> */}
                     </div>
-                </nav>
-            </div> */}
+                    {/* <!-- /.container --> */}
+                </div>
+            </div>
+        </div>
+        {/* <!--//==Navbar End==//--> */}
+    </header>
+            {/* Header end */}
 
         </>
     );
