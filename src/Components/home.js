@@ -1,32 +1,69 @@
+import "../main.css";
+
 function Home() {
     return (
         <>
-            <div id="carouselExampleIndicators" className="carousel slide">
-                <div className="carousel-indicators">
-                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
-                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                </div>
-                <div className="carousel-inner">
-                    <div className="carousel-item active ">
-                        <img src="https://latestcorporation.com/assets/img/slide/a.jpeg" className="d-block carouselimg w-100" alt="..." />
-                    </div>
-                    <div className="carousel-item">
-                        <img src="https://latestcorporation.com/assets/img/slide/b.jpeg" className="d-block carouselimg w-100" alt="..." />
-                    </div>
-                    <div className="carousel-item">
-                        <img src="https://latestcorporation.com/assets/img/slide/c.jpg" className="d-block carouselimg w-100" alt="..." />
-                    </div>
-                </div>
-                <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-                    <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span className="visually-hidden">Previous</span>
-                </button>
-                <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-                    <span className="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span className="visually-hidden">Next</span>
-                </button>
+            {/* <!--//==Preloader Start==//--> */}
+    {/* <div class="preloader">
+        <div class="cssload-container">
+            <div class="cssload-loading">
+                <div id="object"><i class="fa fa-bath" aria-hidden="true"></i></div>
             </div>
+            <h4 class="title">Loading</h4>
+        </div>
+    </div> */}
+    {/* <!--//==Preloader End==//--> */}
+
+    {/* <!--//=======Main Slider=======//--> */}
+    <div class="wa_main_bn_wrap sliderd">
+        <div id="home1-main-slider" class="owl-carousel owl-theme">
+            <div class="item sliderimg">
+                <figure>
+                    <img src="././assets/img/all/wa-blog-detail3.jpg" class="hidden-xs hidden-sm " alt="" />
+                    <img src="assets/img/all/wa-blog-detail3.jpg" class="hidden-lg hidden-md" alt="" />
+                    <figcaption>
+                        <div class="container">
+                            {/* <!-- <h2><span class="">Luxury Faucets Collections</span></h2>
+                            <span class="">flat 60% off for first 30 Customer.</span> --> */}
+
+                            {/* <!-- <a href="collection-grid-sidebar.html" class="theme-button">Shop Now</a> --> */}
+                        </div>
+                    </figcaption>
+                </figure>
+            </div>
+            <div class="item sliderimg">
+                <figure>
+                    <img src="assets/img/all/wa-blog-detail2.jpg" class="hidden-xs hidden-sm " alt="" />
+                    <img src="assets/img/all/wa-blog-detail2.jpg" class="hidden-lg hidden-md" alt="" />
+                    <figcaption>
+                        <div class="container">
+                            {/* <!-- <h2><span>Luxury Faucets Collections</span></h2>
+                            <span>flat 60% off for first 30 Customer.</span>
+                            <p>Quis est tam dissimile homini. Quia dolori non voluptas.</p>
+                            <a href="collection-grid-sidebar.html" class="theme-button">Shop Now</a> --> */}
+                        </div>
+                    </figcaption>
+                </figure>
+            </div>
+            <div class="item sliderimg">
+                <figure>
+                    <img src="https://latestcorporation.com/assets/img/slide/c.jpg" class="hidden-xs hidden-sm"
+                        alt="" />
+                    <img src="https://latestcorporation.com/assets/img/slide/c.jpg" class="hidden-lg hidden-md"
+                        alt="" />
+                    <figcaption>
+                        <div class="container">
+                            {/* <!-- <h2><span>Luxury Faucets Collections</span></h2>
+                            <span>flat 60% off for first 30 Customer.</span>
+                            <p>Quis est tam dissimile homini. Quia dolori non voluptas.</p>
+                            <a href="collection-grid-sidebar.html" class="theme-button">Shop Now</a> --> */}
+                        </div>
+                    </figcaption>
+                </figure>
+            </div>
+        </div>
+    </div>
+    {/* <!--//=======Main Slider End=======//--> */}
         </>
     )
 }
