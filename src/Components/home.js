@@ -19,8 +19,8 @@ function Home() {
         <div id="home1-main-slider" class="owl-carousel owl-theme">
             <div class="item sliderimg">
                 <figure>
-                    <img src="././assets/img/all/wa-blog-detail3.jpg" class="hidden-xs hidden-sm " alt="" />
-                    <img src="assets/img/all/wa-blog-detail3.jpg" class="hidden-lg hidden-md" alt="" />
+                    <img src="../assets/img/all/wa-blog-detail3.jpg" class="hidden-xs hidden-sm " alt="" />
+                    <img src="../assets/img/all/wa-blog-detail3.jpg" class="hidden-lg hidden-md" alt="" />
                     <figcaption>
                         <div class="container">
                             {/* <!-- <h2><span class="">Luxury Faucets Collections</span></h2>
@@ -33,8 +33,8 @@ function Home() {
             </div>
             <div class="item sliderimg">
                 <figure>
-                    <img src="assets/img/all/wa-blog-detail2.jpg" class="hidden-xs hidden-sm " alt="" />
-                    <img src="assets/img/all/wa-blog-detail2.jpg" class="hidden-lg hidden-md" alt="" />
+                    <img src="../assets/img/all/wa-blog-detail2.jpg" class="hidden-xs hidden-sm " alt="" />
+                    <img src="../assets/img/all/wa-blog-detail2.jpg" class="hidden-lg hidden-md" alt="" />
                     <figcaption>
                         <div class="container">
                             {/* <!-- <h2><span>Luxury Faucets Collections</span></h2>
