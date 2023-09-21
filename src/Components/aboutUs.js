@@ -1,4 +1,5 @@
 import "../main.css";
+
 function AboutUs() {
     return (
         <>
@@ -32,7 +33,7 @@ function AboutUs() {
                                 <div className="row">
                                     {/* <!--//==Thumbnail==//--> */}
                                     <figure className="dark-theme">
-                                        <img src="../assets/img/all/wa-blog-3.jpg" alt="Blog Thumbnail" />
+                                        <img src="/Images/all/wa-blog-3.jpg" alt="Blog Thumbnail" />
                                     </figure>
                                     {/* <!--//==Blog Content==//--> */}
                                     <div className="block-caption padT20">
@@ -261,13 +262,15 @@ function AboutUs() {
                                     style={{opacity: 1,display: "block"}}>
                                     <div className="owl-wrapper-outer">
                                         <div className="owl-wrapper"
-                                            style={{width: 1938, left: 0, display: "block", transition: "all 0 ease 0", transform: "translate3d(0, 0, 0)"}}>
+                                            style={{width: 1938, left: 0, display: "block", transition: "all 0 ease 0", transform: "translate3d(0, 0, 0)"}}
+                                            
+                                        >
                                             <div className="owl-item" style={{width: 323}}>
                                                 <div className="home-blog-item">
                                                     <div className="col-md-12">
                                                         <div className="wa-theme-design-block">
                                                             <figure className="dark-theme">
-                                                                <img src="assets/img/all/business-agreement-handshake-hand-gesture_53876-130006.jpg"
+                                                                <img src="/Images/all/business-agreement-handshake-hand-gesture_53876-130006.jpg"
                                                                     alt="Thumbnail"/>
                                                                     <span className="hover-style"></span>
                                                             </figure>
@@ -286,7 +289,7 @@ function AboutUs() {
                                                     <div className="col-md-12">
                                                         <div className="wa-theme-design-block">
                                                             <figure className="dark-theme">
-                                                                <img src="assets/img/all/discount.jpg" alt="Thumbnail"/>
+                                                                <img src="/Images/all/discount.jpg" alt="Thumbnail"/>
                                                                     <span className="hover-style"></span>
                                                             </figure>
                                                             <div className="block-caption">
@@ -308,7 +311,7 @@ function AboutUs() {
                                                     <div className="col-md-12">
                                                         <div className="wa-theme-design-block">
                                                             <figure className="dark-theme">
-                                                                <img src="assets/img/all/professionals.jpg" alt="Thumbnail"/>
+                                                                <img src="/Images/all/professionals.jpg" alt="Thumbnail"/>
                                                                     <span className="hover-style"></span>
                                                             </figure>
                                                             <div className="block-caption">

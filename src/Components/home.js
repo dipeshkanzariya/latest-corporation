@@ -1,5 +1,5 @@
 import "../main.css";
-
+import {Link} from 'react-router-dom';
 function Home() {
     return (
         <>
@@ -15,55 +15,55 @@ function Home() {
             {/* <!--//==Preloader End==//--> */}
 
             {/* <!--//=======Main Slider=======//--> */}
-                            {/* <div className="img1"></div> */}
-            <div className="wa_main_bn_wrap sliderd">
-                <div id="home1-main-slider" className="owl-carousel owl-theme">
-                    <div className="item sliderimg">
-                        <figure>
-                            <img src="../assets/img/wa-blog-detail3.jpg" alt="" />
-                            <img src="../assets/img/all/wa-blog-detail3.jpg" className="hidden-lg hidden-md" alt="" />
-                            <figcaption>
-                                <div className="container">
-                                    {/* <!-- <h2><span className="">Luxury Faucets Collections</span></h2>
-                            <span className="">flat 60% off for first 30 Customer.</span> --> */}
+            <div class="wa_main_bn_wrap sliderd">
+        <div id="home1-main-slider" class="owl-carousel owl-theme">
+            <div class="item sliderimg">
+                <figure>
+                    <img src="/Images/all/wa-blog-detail3.jpg" class="hidden-xs hidden-sm " alt="" />
+                    <img src="/Images/all/wa-blog-detail3.jpg" class="hidden-lg hidden-md" alt="" />
+                    <figcaption>
+                        <div class="container">
+                            {/* <!-- <h2><span class="">Luxury Faucets Collections</span></h2>
+                            <span class="">flat 60% off for first 30 Customer.</span> -->
 
-                                    {/* <!-- <a href="collection-grid-sidebar.html" className="theme-button">Shop Now</a> --> */}
-                                </div>
-                            </figcaption>
-                        </figure>
-                    </div>
-                    <div className="item sliderimg">
-                        <figure>
-                            <img src="../assets/img/all/wa-blog-detail2.jpg" className="hidden-xs hidden-sm " alt="" />
-                            <img src="../assets/img/all/wa-blog-detail2.jpg"  className="hidden-lg hidden-md" alt="" />
-                            <figcaption>
-                                <div className="container">
-                                    {/* <!-- <h2><span>Luxury Faucets Collections</span></h2>
-                            <span>flat 60% off for first 30 Customer.</span>
-                            <p>Quis est tam dissimile homini. Quia dolori non voluptas.</p>
-                            <a href="collection-grid-sidebar.html" className="theme-button">Shop Now</a> --> */}
-                                </div>
-                            </figcaption>
-                        </figure>
-                    </div>
-                    <div className="item sliderimg">
-                        <figure>
-                            <img src="https://latestcorporation.com/assets/img/slide/c.jpg" 
-                                alt="" />
-                            <img src="https://latestcorporation.com/assets/img/slide/c.jpg" 
-                                alt="" />
-                            <figcaption>
-                                <div className="container">
-                                    {/* <!-- <h2><span>Luxury Faucets Collections</span></h2>
-                            <span>flat 60% off for first 30 Customer.</span>
-                            <p>Quis est tam dissimile homini. Quia dolori non voluptas.</p>
-                            <a href="collection-grid-sidebar.html" className="theme-button">Shop Now</a> --> */}
-                                </div>
-                            </figcaption>
-                        </figure>
-                    </div>
-                </div>
+                            <!-- <a href="collection-grid-sidebar.html" class="theme-button">Shop Now</a> --> */}
+                        </div>
+                    </figcaption>
+                </figure>
             </div>
+            <div class="item sliderimg">
+                <figure>
+                    <img src="/Images/all/wa-blog-detail2.jpg" class="hidden-xs hidden-sm " alt="" />
+                    <img src="/Images/all/wa-blog-detail2.jpg" class="hidden-lg hidden-md" alt="" />
+                    <figcaption>
+                        <div class="container">
+                            {/* <!-- <h2><span>Luxury Faucets Collections</span></h2>
+                            <span>flat 60% off for first 30 Customer.</span>
+                            <p>Quis est tam dissimile homini. Quia dolori non voluptas.</p>
+                            <a href="collection-grid-sidebar.html" class="theme-button">Shop Now</a> --> */}
+                        </div>
+                    </figcaption>
+                </figure>
+            </div>
+            <div class="item sliderimg">
+                <figure>
+                    <img src="https://latestcorporation.com/assets/img/slide/c.jpg" class="hidden-xs hidden-sm"
+                        alt="" />
+                    <img src="https://latestcorporation.com/assets/img/slide/c.jpg" class="hidden-lg hidden-md"
+                        alt="" />
+                    <figcaption>
+                        <div class="container">
+                            {/* <!-- <h2><span>Luxury Faucets Collections</span></h2>
+                            <span>flat 60% off for first 30 Customer.</span>
+                            <p>Quis est tam dissimile homini. Quia dolori non voluptas.</p>
+                            <a href="collection-grid-sidebar.html" class="theme-button">Shop Now</a> --> */}
+                        </div>
+                    </figcaption>
+                </figure>
+            </div>
+        </div>
+    </div>
+           
             {/* <!--//=======Main Slider End=======//--> */}
 
             {/* <!--//=============product Start============//--> */}
@@ -87,15 +87,14 @@ function Home() {
                             className="col-lg-3 col-lg-offset-0 col-md-3 col-md-offset-0 col-sm-4 col-sm-offset-0 col-xs-12 col-xs-offset-0 mix">
                             <div className="wa-products">
                                 <div className="wa-products-thumbnail wa-item">
-                                    <img src="assets/img/product/11.jpg" alt="" />
+                                    <img src="https://uniqueadmin.latestcorporation.com/admin_latest_corporation/Images/prime.png" alt="" />
                                     <div className="caption">
                                         <div className="caption-text">
                                             <ul className="wa-products-icon">
-                                                <li><a href="" title="Add to wishlist"><i className="fa fa-heart-o"></i></a></li>
-                                                <li><a href="" className="quickview-box-btn" title="Quick View"><i
-                                                    className="fa fa-eye"></i></a></li>
-                                                <li><a href="" title="Add to cart"><i className="fa fa-shopping-basket"></i></a>
-                                                </li>
+                                                
+                                                <li><Link className="quickview-box-btn" title="Quick View"><i
+                                                    className="fa fa-eye"></i></Link></li>
+                                               
                                             </ul>
                                             <div className="clear"></div>
                                         </div>
@@ -104,18 +103,8 @@ function Home() {
                                 <div className="wa-products-caption">
                                     <h2><a href="product-detail.html">Product Title</a></h2>
                                     <div className="clear"></div>
-                                    <ul className="ratings">
-                                        <li><a href=""><i className="fa fa-star"></i></a></li>
-                                        <li><a href=""><i className="fa fa-star"></i></a></li>
-                                        <li><a href=""><i className="fa fa-star"></i></a></li>
-                                        <li><a href=""><i className="fa fa-star"></i></a></li>
-                                        <li><a href=""><i className="fa fa-star-half-o"></i></a></li>
-                                    </ul>
-                                    <div className="clear"></div>
-                                    <span className="price">
-                                        <del>$200</del>
-                                        $100
-                                    </span>
+                                    
+                                  
                                 </div>
                             </div>
                         </div>
@@ -124,15 +113,14 @@ function Home() {
                             className="col-lg-3 col-lg-offset-0 col-md-3 col-md-offset-0 col-sm-4 col-sm-offset-0 col-xs-12 col-xs-offset-0 mix">
                             <div className="wa-products">
                                 <div className="wa-products-thumbnail wa-item">
-                                    <img src="assets/img/product/7.jpg" alt="" />
+                                    <img src="https://uniqueadmin.latestcorporation.com/admin_latest_corporation/Images/prime.png" alt="" />
                                     <div className="caption">
                                         <div className="caption-text">
                                             <ul className="wa-products-icon">
-                                                <li><a href="" title="Add to wishlist"><i className="fa fa-heart-o"></i></a></li>
-                                                <li><a href="" className="quickview-box-btn" title="Quick View"><i
-                                                    className="fa fa-eye"></i></a></li>
-                                                <li><a href="" title="Add to cart"><i className="fa fa-shopping-basket"></i></a>
-                                                </li>
+                                                
+                                                <li><Link className="quickview-box-btn" title="Quick View"><i
+                                                    className="fa fa-eye"></i></Link></li>
+                                               
                                             </ul>
                                             <div className="clear"></div>
                                         </div>
@@ -141,18 +129,8 @@ function Home() {
                                 <div className="wa-products-caption">
                                     <h2><a href="product-detail.html">Product Title</a></h2>
                                     <div className="clear"></div>
-                                    <ul className="ratings">
-                                        <li><a href=""><i className="fa fa-star"></i></a></li>
-                                        <li><a href=""><i className="fa fa-star"></i></a></li>
-                                        <li><a href=""><i className="fa fa-star"></i></a></li>
-                                        <li><a href=""><i className="fa fa-star"></i></a></li>
-                                        <li><a href=""><i className="fa fa-star-half-o"></i></a></li>
-                                    </ul>
-                                    <div className="clear"></div>
-                                    <span className="price">
-                                        <del>$200</del>
-                                        $100
-                                    </span>
+                                    
+                                  
                                 </div>
                             </div>
                         </div>
@@ -161,15 +139,14 @@ function Home() {
                             className="col-lg-3 col-lg-offset-0 col-md-3 col-md-offset-0 col-sm-4 col-sm-offset-0 col-xs-12 col-xs-offset-0 mix">
                             <div className="wa-products">
                                 <div className="wa-products-thumbnail wa-item">
-                                    <img src="assets/img/product/10.jpg" alt="" />
+                                    <img src="https://uniqueadmin.latestcorporation.com/admin_latest_corporation/Images/prime.png" alt="" />
                                     <div className="caption">
                                         <div className="caption-text">
                                             <ul className="wa-products-icon">
-                                                <li><a href="" title="Add to wishlist"><i className="fa fa-heart-o"></i></a></li>
-                                                <li><a href="" className="quickview-box-btn" title="Quick View"><i
-                                                    className="fa fa-eye"></i></a></li>
-                                                <li><a href="" title="Add to cart"><i className="fa fa-shopping-basket"></i></a>
-                                                </li>
+                                                
+                                                <li><Link className="quickview-box-btn" title="Quick View"><i
+                                                    className="fa fa-eye"></i></Link></li>
+                                               
                                             </ul>
                                             <div className="clear"></div>
                                         </div>
@@ -178,18 +155,8 @@ function Home() {
                                 <div className="wa-products-caption">
                                     <h2><a href="product-detail.html">Product Title</a></h2>
                                     <div className="clear"></div>
-                                    <ul className="ratings">
-                                        <li><a href=""><i className="fa fa-star"></i></a></li>
-                                        <li><a href=""><i className="fa fa-star"></i></a></li>
-                                        <li><a href=""><i className="fa fa-star"></i></a></li>
-                                        <li><a href=""><i className="fa fa-star"></i></a></li>
-                                        <li><a href=""><i className="fa fa-star-half-o"></i></a></li>
-                                    </ul>
-                                    <div className="clear"></div>
-                                    <span className="price">
-                                        <del>$200</del>
-                                        $100
-                                    </span>
+                                    
+                                  
                                 </div>
                             </div>
                         </div>
@@ -198,15 +165,14 @@ function Home() {
                             className="col-lg-3 col-lg-offset-0 col-md-3 col-md-offset-0 col-sm-4 col-sm-offset-0 col-xs-12 col-xs-offset-0 mix ">
                             <div className="wa-products">
                                 <div className="wa-products-thumbnail wa-item">
-                                    <img src="assets/img/product/9.jpg" alt="" />
+                                    <img src="https://uniqueadmin.latestcorporation.com/admin_latest_corporation/Images/prime.png" alt="" />
                                     <div className="caption">
                                         <div className="caption-text">
                                             <ul className="wa-products-icon">
-                                                <li><a href="" title="Add to wishlist"><i className="fa fa-heart-o"></i></a></li>
-                                                <li><a href="" className="quickview-box-btn" title="Quick View"><i
-                                                    className="fa fa-eye"></i></a></li>
-                                                <li><a href="" title="Add to cart"><i className="fa fa-shopping-basket"></i></a>
-                                                </li>
+                                                
+                                                <li><Link className="quickview-box-btn" title="Quick View"><i
+                                                    className="fa fa-eye"></i></Link></li>
+                                               
                                             </ul>
                                             <div className="clear"></div>
                                         </div>
@@ -215,18 +181,8 @@ function Home() {
                                 <div className="wa-products-caption">
                                     <h2><a href="product-detail.html">Product Title</a></h2>
                                     <div className="clear"></div>
-                                    <ul className="ratings">
-                                        <li><a href=""><i className="fa fa-star"></i></a></li>
-                                        <li><a href=""><i className="fa fa-star"></i></a></li>
-                                        <li><a href=""><i className="fa fa-star"></i></a></li>
-                                        <li><a href=""><i className="fa fa-star"></i></a></li>
-                                        <li><a href=""><i className="fa fa-star-half-o"></i></a></li>
-                                    </ul>
-                                    <div className="clear"></div>
-                                    <span className="price">
-                                        <del>$200</del>
-                                        $100
-                                    </span>
+                                    
+                                  
                                 </div>
                             </div>
                         </div>
@@ -235,15 +191,14 @@ function Home() {
                             className="col-lg-3 col-lg-offset-0 col-md-3 col-md-offset-0 col-sm-4 col-sm-offset-0 col-xs-12 col-xs-offset-0 mix">
                             <div className="wa-products">
                                 <div className="wa-products-thumbnail wa-item">
-                                    <img src="assets/img/product/8.jpg" alt="" />
+                                    <img src="https://uniqueadmin.latestcorporation.com/admin_latest_corporation/Images/prime.png" alt="" />
                                     <div className="caption">
                                         <div className="caption-text">
                                             <ul className="wa-products-icon">
-                                                <li><a href="" title="Add to wishlist"><i className="fa fa-heart-o"></i></a></li>
-                                                <li><a href="" className="quickview-box-btn" title="Quick View"><i
-                                                    className="fa fa-eye"></i></a></li>
-                                                <li><a href="" title="Add to cart"><i className="fa fa-shopping-basket"></i></a>
-                                                </li>
+                                                
+                                                <li><Link className="quickview-box-btn" title="Quick View"><i
+                                                    className="fa fa-eye"></i></Link></li>
+                                               
                                             </ul>
                                             <div className="clear"></div>
                                         </div>
@@ -252,18 +207,8 @@ function Home() {
                                 <div className="wa-products-caption">
                                     <h2><a href="product-detail.html">Product Title</a></h2>
                                     <div className="clear"></div>
-                                    <ul className="ratings">
-                                        <li><a href=""><i className="fa fa-star"></i></a></li>
-                                        <li><a href=""><i className="fa fa-star"></i></a></li>
-                                        <li><a href=""><i className="fa fa-star"></i></a></li>
-                                        <li><a href=""><i className="fa fa-star"></i></a></li>
-                                        <li><a href=""><i className="fa fa-star-half-o"></i></a></li>
-                                    </ul>
-                                    <div className="clear"></div>
-                                    <span className="price">
-                                        <del>$200</del>
-                                        $100
-                                    </span>
+                                    
+                                  
                                 </div>
                             </div>
                         </div>
@@ -272,15 +217,14 @@ function Home() {
                             className="col-lg-3 col-lg-offset-0 col-md-3 col-md-offset-0 col-sm-4 col-sm-offset-0 col-xs-12 col-xs-offset-0 mix ">
                             <div className="wa-products">
                                 <div className="wa-products-thumbnail wa-item">
-                                    <img src="assets/img/product/6.jpg" alt="" />
+                                    <img src="https://uniqueadmin.latestcorporation.com/admin_latest_corporation/Images/prime.png" alt="" />
                                     <div className="caption">
                                         <div className="caption-text">
                                             <ul className="wa-products-icon">
-                                                <li><a href="" title="Add to wishlist"><i className="fa fa-heart-o"></i></a></li>
-                                                <li><a href="" className="quickview-box-btn" title="Quick View"><i
-                                                    className="fa fa-eye"></i></a></li>
-                                                <li><a href="" title="Add to cart"><i className="fa fa-shopping-basket"></i></a>
-                                                </li>
+                                                
+                                                <li><Link className="quickview-box-btn" title="Quick View"><i
+                                                    className="fa fa-eye"></i></Link></li>
+                                               
                                             </ul>
                                             <div className="clear"></div>
                                         </div>
@@ -289,18 +233,8 @@ function Home() {
                                 <div className="wa-products-caption">
                                     <h2><a href="product-detail.html">Product Title</a></h2>
                                     <div className="clear"></div>
-                                    <ul className="ratings">
-                                        <li><a href=""><i className="fa fa-star"></i></a></li>
-                                        <li><a href=""><i className="fa fa-star"></i></a></li>
-                                        <li><a href=""><i className="fa fa-star"></i></a></li>
-                                        <li><a href=""><i className="fa fa-star"></i></a></li>
-                                        <li><a href=""><i className="fa fa-star-half-o"></i></a></li>
-                                    </ul>
-                                    <div className="clear"></div>
-                                    <span className="price">
-                                        <del>$200</del>
-                                        $100
-                                    </span>
+                                    
+                                  
                                 </div>
                             </div>
                         </div>
@@ -309,15 +243,14 @@ function Home() {
                             className="col-lg-3 col-lg-offset-0 col-md-3 col-md-offset-0 col-sm-4 col-sm-offset-0 col-xs-12 col-xs-offset-0 mix">
                             <div className="wa-products">
                                 <div className="wa-products-thumbnail wa-item">
-                                    <img src="assets/img/product/12.jpg" alt="" />
+                                    <img src="https://uniqueadmin.latestcorporation.com/admin_latest_corporation/Images/prime.png" alt="" />
                                     <div className="caption">
                                         <div className="caption-text">
                                             <ul className="wa-products-icon">
-                                                <li><a href="" title="Add to wishlist"><i className="fa fa-heart-o"></i></a></li>
-                                                <li><a href="" className="quickview-box-btn" title="Quick View"><i
-                                                    className="fa fa-eye"></i></a></li>
-                                                <li><a href="" title="Add to cart"><i className="fa fa-shopping-basket"></i></a>
-                                                </li>
+                                                
+                                                <li><Link className="quickview-box-btn" title="Quick View"><i
+                                                    className="fa fa-eye"></i></Link></li>
+                                               
                                             </ul>
                                             <div className="clear"></div>
                                         </div>
@@ -326,18 +259,8 @@ function Home() {
                                 <div className="wa-products-caption">
                                     <h2><a href="product-detail.html">Product Title</a></h2>
                                     <div className="clear"></div>
-                                    <ul className="ratings">
-                                        <li><a href=""><i className="fa fa-star"></i></a></li>
-                                        <li><a href=""><i className="fa fa-star"></i></a></li>
-                                        <li><a href=""><i className="fa fa-star"></i></a></li>
-                                        <li><a href=""><i className="fa fa-star"></i></a></li>
-                                        <li><a href=""><i className="fa fa-star-half-o"></i></a></li>
-                                    </ul>
-                                    <div className="clear"></div>
-                                    <span className="price">
-                                        <del>$200</del>
-                                        $100
-                                    </span>
+                                    
+                                  
                                 </div>
                             </div>
                         </div>
@@ -346,15 +269,14 @@ function Home() {
                             className="col-lg-3 col-lg-offset-0 col-md-3 col-md-offset-0 col-sm-4 col-sm-offset-0 col-xs-12 col-xs-offset-0 mix">
                             <div className="wa-products">
                                 <div className="wa-products-thumbnail wa-item">
-                                    <img src="assets/img/product/13.jpg" alt="" />
+                                    <img src="https://uniqueadmin.latestcorporation.com/admin_latest_corporation/Images/prime.png" alt="" />
                                     <div className="caption">
                                         <div className="caption-text">
                                             <ul className="wa-products-icon">
-                                                <li><a href="" title="Add to wishlist"><i className="fa fa-heart-o"></i></a></li>
-                                                <li><a href="" className="quickview-box-btn" title="Quick View"><i
-                                                    className="fa fa-eye"></i></a></li>
-                                                <li><a href="" title="Add to cart"><i className="fa fa-shopping-basket"></i></a>
-                                                </li>
+                                                
+                                                <li><Link className="quickview-box-btn" title="Quick View"><i
+                                                    className="fa fa-eye"></i></Link></li>
+                                               
                                             </ul>
                                             <div className="clear"></div>
                                         </div>
@@ -363,18 +285,8 @@ function Home() {
                                 <div className="wa-products-caption">
                                     <h2><a href="product-detail.html">Product Title</a></h2>
                                     <div className="clear"></div>
-                                    <ul className="ratings">
-                                        <li><a href=""><i className="fa fa-star"></i></a></li>
-                                        <li><a href=""><i className="fa fa-star"></i></a></li>
-                                        <li><a href=""><i className="fa fa-star"></i></a></li>
-                                        <li><a href=""><i className="fa fa-star"></i></a></li>
-                                        <li><a href=""><i className="fa fa-star-half-o"></i></a></li>
-                                    </ul>
-                                    <div className="clear"></div>
-                                    <span className="price">
-                                        <del>$200</del>
-                                        $100
-                                    </span>
+                                    
+                                  
                                 </div>
                             </div>
                         </div>
@@ -393,7 +305,7 @@ function Home() {
                                 <div className="latest-banners-item">
                                     <div className="wa-banners">
                                         <div className="wa-banners-thumbnail item our-banners-item wa-item">
-                                            <img src="assets/img/banners/1.jpg" alt="" />
+                                            <img src="/Images/banners/1.jpg" alt="" />
                                             <div className="caption">
                                                 <div className="caption-text">
                                                     <div className="clear"></div>
@@ -415,15 +327,14 @@ function Home() {
                                 <div className="latest-banners-item">
                                     <div className="wa-banners">
                                         <div className="wa-banners-thumbnail item our-banners-item wa-item">
-                                            <img src="assets/img/banners/2.jpg" alt="" />
+                                            <img src="/Images/banners/2.jpg" alt="" />
                                             <div className="caption">
                                                 <div className="caption-text">
                                                     <div className="clear"></div>
                                                     <div className="wa-banners-caption text-right">
                                                         <h2>Brass Collection</h2>
                                                         <div className="clear"></div>
-                                                        <h3>SAVE UP TO 60% OFF</h3>
-                                                        <div className="clear"></div>
+                                                        
                                                         <a href="brass.html" className="theme-button marT10">view product</a>
                                                     </div>
                                                 </div>
@@ -532,15 +443,15 @@ function Home() {
                             <div className="col-md-12">
                                 <div className="wa-products">
                                     <div className="wa-products-thumbnail wa-item">
-                                        <img src="assets/img/product/11.jpg" alt="" />
+                                        <img src="/Images/product/11.jpg" alt="" />
                                         <div className="caption">
                                             <div className="caption-text">
                                                 <ul className="wa-products-icon">
-                                                    <li><a href="" title="Add to wishlist"><i className="fa fa-heart-o"></i></a>
+                                                    <li><Link title="Add to wishlist"><i className="fa fa-heart-o"></i></Link>
                                                     </li>
-                                                    <li><a href="" className="quickview-box-btn" title="Quick View"><i
-                                                        className="fa fa-eye"></i></a></li>
-                                                    <li><a href="" title="Add to cart"><i className="fa fa-shopping-basket"></i></a>
+                                                    <li><Link className="quickview-box-btn" title="Quick View"><i
+                                                        className="fa fa-eye"></i></Link></li>
+                                                    <li><Link title="Add to cart"><i className="fa fa-shopping-basket"></i></Link>
                                                     </li>
                                                 </ul>
                                                 <div className="clear"></div>
@@ -551,11 +462,11 @@ function Home() {
                                         <h2><a href="product-detail.html">Product Title</a></h2>
                                         <div className="clear"></div>
                                         <ul className="ratings">
-                                            <li><a href=""><i className="fa fa-star"></i></a></li>
-                                            <li><a href=""><i className="fa fa-star"></i></a></li>
-                                            <li><a href=""><i className="fa fa-star"></i></a></li>
-                                            <li><a href=""><i className="fa fa-star"></i></a></li>
-                                            <li><a href=""><i className="fa fa-star-half-o"></i></a></li>
+                                            <li><Link><i className="fa fa-star"></i></Link></li>
+                                            <li><Link><i className="fa fa-star"></i></Link></li>
+                                            <li><Link><i className="fa fa-star"></i></Link></li>
+                                            <li><Link><i className="fa fa-star"></i></Link></li>
+                                            <li><Link><i className="fa fa-star-half-o"></i></Link></li>
                                         </ul>
                                         <div className="clear"></div>
                                         <span className="price">
@@ -569,15 +480,15 @@ function Home() {
                             <div className="col-md-12">
                                 <div className="wa-products">
                                     <div className="wa-products-thumbnail wa-item">
-                                        <img src="assets/img/product/7.jpg" alt="" />
+                                        <img src="/Images/product/7.jpg" alt="" />
                                         <div className="caption">
                                             <div className="caption-text">
                                                 <ul className="wa-products-icon">
-                                                    <li><a href="" title="Add to wishlist"><i className="fa fa-heart-o"></i></a>
+                                                    <li><Link title="Add to wishlist"><i className="fa fa-heart-o"></i></Link>
                                                     </li>
-                                                    <li><a href="" className="quickview-box-btn" title="Quick View"><i
-                                                        className="fa fa-eye"></i></a></li>
-                                                    <li><a href="" title="Add to cart"><i className="fa fa-shopping-basket"></i></a>
+                                                    <li><Link className="quickview-box-btn" title="Quick View"><i
+                                                        className="fa fa-eye"></i></Link></li>
+                                                    <li><Link title="Add to cart"><i className="fa fa-shopping-basket"></i></Link>
                                                     </li>
                                                 </ul>
                                                 <div className="clear"></div>
@@ -588,11 +499,11 @@ function Home() {
                                         <h2><a href="product-detail.html">Product Title</a></h2>
                                         <div className="clear"></div>
                                         <ul className="ratings">
-                                            <li><a href=""><i className="fa fa-star"></i></a></li>
-                                            <li><a href=""><i className="fa fa-star"></i></a></li>
-                                            <li><a href=""><i className="fa fa-star"></i></a></li>
-                                            <li><a href=""><i className="fa fa-star"></i></a></li>
-                                            <li><a href=""><i className="fa fa-star-half-o"></i></a></li>
+                                            <li><Link><i className="fa fa-star"></i></Link></li>
+                                            <li><Link><i className="fa fa-star"></i></Link></li>
+                                            <li><Link><i className="fa fa-star"></i></Link></li>
+                                            <li><Link><i className="fa fa-star"></i></Link></li>
+                                            <li><Link><i className="fa fa-star-half-o"></i></Link></li>
                                         </ul>
                                         <div className="clear"></div>
                                         <span className="price">
@@ -606,15 +517,15 @@ function Home() {
                             <div className="col-md-12">
                                 <div className="wa-products">
                                     <div className="wa-products-thumbnail wa-item">
-                                        <img src="assets/img/product/10.jpg" alt="" />
+                                        <img src="/Images/product/10.jpg" alt="" />
                                         <div className="caption">
                                             <div className="caption-text">
                                                 <ul className="wa-products-icon">
-                                                    <li><a href="" title="Add to wishlist"><i className="fa fa-heart-o"></i></a>
+                                                    <li><Link title="Add to wishlist"><i className="fa fa-heart-o"></i></Link>
                                                     </li>
-                                                    <li><a href="" className="quickview-box-btn" title="Quick View"><i
-                                                        className="fa fa-eye"></i></a></li>
-                                                    <li><a href="" title="Add to cart"><i className="fa fa-shopping-basket"></i></a>
+                                                    <li><Link className="quickview-box-btn" title="Quick View"><i
+                                                        className="fa fa-eye"></i></Link></li>
+                                                    <li><Link title="Add to cart"><i className="fa fa-shopping-basket"></i></Link>
                                                     </li>
                                                 </ul>
                                                 <div className="clear"></div>
@@ -625,11 +536,11 @@ function Home() {
                                         <h2><a href="product-detail.html">Product Title</a></h2>
                                         <div className="clear"></div>
                                         <ul className="ratings">
-                                            <li><a href=""><i className="fa fa-star"></i></a></li>
-                                            <li><a href=""><i className="fa fa-star"></i></a></li>
-                                            <li><a href=""><i className="fa fa-star"></i></a></li>
-                                            <li><a href=""><i className="fa fa-star"></i></a></li>
-                                            <li><a href=""><i className="fa fa-star-half-o"></i></a></li>
+                                            <li><Link><i className="fa fa-star"></i></Link></li>
+                                            <li><Link><i className="fa fa-star"></i></Link></li>
+                                            <li><Link><i className="fa fa-star"></i></Link></li>
+                                            <li><Link><i className="fa fa-star"></i></Link></li>
+                                            <li><Link><i className="fa fa-star-half-o"></i></Link></li>
                                         </ul>
                                         <div className="clear"></div>
                                         <span className="price">
@@ -643,15 +554,15 @@ function Home() {
                             <div className="col-md-12">
                                 <div className="wa-products">
                                     <div className="wa-products-thumbnail wa-item">
-                                        <img src="assets/img/product/9.jpg" alt="" />
+                                        <img src="/Images/product/9.jpg" alt="" />
                                         <div className="caption">
                                             <div className="caption-text">
                                                 <ul className="wa-products-icon">
-                                                    <li><a href="" title="Add to wishlist"><i className="fa fa-heart-o"></i></a>
+                                                    <li><Link title="Add to wishlist"><i className="fa fa-heart-o"></i></Link>
                                                     </li>
-                                                    <li><a href="" className="quickview-box-btn" title="Quick View"><i
-                                                        className="fa fa-eye"></i></a></li>
-                                                    <li><a href="" title="Add to cart"><i className="fa fa-shopping-basket"></i></a>
+                                                    <li><Link className="quickview-box-btn" title="Quick View"><i
+                                                        className="fa fa-eye"></i></Link></li>
+                                                    <li><Link title="Add to cart"><i className="fa fa-shopping-basket"></i></Link>
                                                     </li>
                                                 </ul>
                                                 <div className="clear"></div>
@@ -662,11 +573,11 @@ function Home() {
                                         <h2><a href="product-detail.html">Product Title</a></h2>
                                         <div className="clear"></div>
                                         <ul className="ratings">
-                                            <li><a href=""><i className="fa fa-star"></i></a></li>
-                                            <li><a href=""><i className="fa fa-star"></i></a></li>
-                                            <li><a href=""><i className="fa fa-star"></i></a></li>
-                                            <li><a href=""><i className="fa fa-star"></i></a></li>
-                                            <li><a href=""><i className="fa fa-star-half-o"></i></a></li>
+                                            <li><Link><i className="fa fa-star"></i></Link></li>
+                                            <li><Link><i className="fa fa-star"></i></Link></li>
+                                            <li><Link><i className="fa fa-star"></i></Link></li>
+                                            <li><Link><i className="fa fa-star"></i></Link></li>
+                                            <li><Link><i className="fa fa-star-half-o"></i></Link></li>
                                         </ul>
                                         <div className="clear"></div>
                                         <span className="price">
@@ -680,15 +591,15 @@ function Home() {
                             <div className="col-md-12">
                                 <div className="wa-products">
                                     <div className="wa-products-thumbnail wa-item">
-                                        <img src="assets/img/product/8.jpg" alt="" />
+                                        <img src="/Images/product/8.jpg" alt="" />
                                         <div className="caption">
                                             <div className="caption-text">
                                                 <ul className="wa-products-icon">
-                                                    <li><a href="" title="Add to wishlist"><i className="fa fa-heart-o"></i></a>
+                                                    <li><Link title="Add to wishlist"><i className="fa fa-heart-o"></i></Link>
                                                     </li>
-                                                    <li><a href="" className="quickview-box-btn" title="Quick View"><i
-                                                        className="fa fa-eye"></i></a></li>
-                                                    <li><a href="" title="Add to cart"><i className="fa fa-shopping-basket"></i></a>
+                                                    <li><Link className="quickview-box-btn" title="Quick View"><i
+                                                        className="fa fa-eye"></i></Link></li>
+                                                    <li><Link title="Add to cart"><i className="fa fa-shopping-basket"></i></Link>
                                                     </li>
                                                 </ul>
                                                 <div className="clear"></div>
@@ -699,11 +610,11 @@ function Home() {
                                         <h2><a href="product-detail.html">Product Title</a></h2>
                                         <div className="clear"></div>
                                         <ul className="ratings">
-                                            <li><a href=""><i className="fa fa-star"></i></a></li>
-                                            <li><a href=""><i className="fa fa-star"></i></a></li>
-                                            <li><a href=""><i className="fa fa-star"></i></a></li>
-                                            <li><a href=""><i className="fa fa-star"></i></a></li>
-                                            <li><a href=""><i className="fa fa-star-half-o"></i></a></li>
+                                            <li><Link><i className="fa fa-star"></i></Link></li>
+                                            <li><Link><i className="fa fa-star"></i></Link></li>
+                                            <li><Link><i className="fa fa-star"></i></Link></li>
+                                            <li><Link><i className="fa fa-star"></i></Link></li>
+                                            <li><Link><i className="fa fa-star-half-o"></i></Link></li>
                                         </ul>
                                         <div className="clear"></div>
                                         <span className="price">
@@ -717,15 +628,15 @@ function Home() {
                             <div className="col-md-12">
                                 <div className="wa-products">
                                     <div className="wa-products-thumbnail wa-item">
-                                        <img src="assets/img/product/6.jpg" alt="" />
+                                        <img src="/Images/product/6.jpg" alt="" />
                                         <div className="caption">
                                             <div className="caption-text">
                                                 <ul className="wa-products-icon">
-                                                    <li><a href="" title="Add to wishlist"><i className="fa fa-heart-o"></i></a>
+                                                    <li><Link title="Add to wishlist"><i className="fa fa-heart-o"></i></Link>
                                                     </li>
-                                                    <li><a href="" className="quickview-box-btn" title="Quick View"><i
-                                                        className="fa fa-eye"></i></a></li>
-                                                    <li><a href="" title="Add to cart"><i className="fa fa-shopping-basket"></i></a>
+                                                    <li><Link className="quickview-box-btn" title="Quick View"><i
+                                                        className="fa fa-eye"></i></Link></li>
+                                                    <li><Link title="Add to cart"><i className="fa fa-shopping-basket"></i></Link>
                                                     </li>
                                                 </ul>
                                                 <div className="clear"></div>
@@ -736,11 +647,11 @@ function Home() {
                                         <h2><a href="product-detail.html">Product Title</a></h2>
                                         <div className="clear"></div>
                                         <ul className="ratings">
-                                            <li><a href=""><i className="fa fa-star"></i></a></li>
-                                            <li><a href=""><i className="fa fa-star"></i></a></li>
-                                            <li><a href=""><i className="fa fa-star"></i></a></li>
-                                            <li><a href=""><i className="fa fa-star"></i></a></li>
-                                            <li><a href=""><i className="fa fa-star-half-o"></i></a></li>
+                                            <li><Link><i className="fa fa-star"></i></Link></li>
+                                            <li><Link><i className="fa fa-star"></i></Link></li>
+                                            <li><Link><i className="fa fa-star"></i></Link></li>
+                                            <li><Link><i className="fa fa-star"></i></Link></li>
+                                            <li><Link><i className="fa fa-star-half-o"></i></Link></li>
                                         </ul>
                                         <div className="clear"></div>
                                         <span className="price">
@@ -754,15 +665,15 @@ function Home() {
                             <div className="col-md-12">
                                 <div className="wa-products">
                                     <div className="wa-products-thumbnail wa-item">
-                                        <img src="assets/img/product/12.jpg" alt="" />
+                                        <img src="/Images/product/12.jpg" alt="" />
                                         <div className="caption">
                                             <div className="caption-text">
                                                 <ul className="wa-products-icon">
-                                                    <li><a href="" title="Add to wishlist"><i className="fa fa-heart-o"></i></a>
+                                                    <li><Link title="Add to wishlist"><i className="fa fa-heart-o"></i></Link>
                                                     </li>
-                                                    <li><a href="" className="quickview-box-btn" title="Quick View"><i
-                                                        className="fa fa-eye"></i></a></li>
-                                                    <li><a href="" title="Add to cart"><i className="fa fa-shopping-basket"></i></a>
+                                                    <li><Link className="quickview-box-btn" title="Quick View"><i
+                                                        className="fa fa-eye"></i></Link></li>
+                                                    <li><Link title="Add to cart"><i className="fa fa-shopping-basket"></i></Link>
                                                     </li>
                                                 </ul>
                                                 <div className="clear"></div>
@@ -773,11 +684,11 @@ function Home() {
                                         <h2><a href="product-detail.html">Product Title</a></h2>
                                         <div className="clear"></div>
                                         <ul className="ratings">
-                                            <li><a href=""><i className="fa fa-star"></i></a></li>
-                                            <li><a href=""><i className="fa fa-star"></i></a></li>
-                                            <li><a href=""><i className="fa fa-star"></i></a></li>
-                                            <li><a href=""><i className="fa fa-star"></i></a></li>
-                                            <li><a href=""><i className="fa fa-star-half-o"></i></a></li>
+                                            <li><Link><i className="fa fa-star"></i></Link></li>
+                                            <li><Link><i className="fa fa-star"></i></Link></li>
+                                            <li><Link><i className="fa fa-star"></i></Link></li>
+                                            <li><Link><i className="fa fa-star"></i></Link></li>
+                                            <li><Link><i className="fa fa-star-half-o"></i></Link></li>
                                         </ul>
                                         <div className="clear"></div>
                                         <span className="price">
@@ -791,15 +702,15 @@ function Home() {
                             <div className="col-md-12">
                                 <div className="wa-products">
                                     <div className="wa-products-thumbnail wa-item">
-                                        <img src="assets/img/product/13.jpg" alt="" />
+                                        <img src="/Images/product/13.jpg" alt="" />
                                         <div className="caption">
                                             <div className="caption-text">
                                                 <ul className="wa-products-icon">
-                                                    <li><a href="" title="Add to wishlist"><i className="fa fa-heart-o"></i></a>
+                                                    <li><Link title="Add to wishlist"><i className="fa fa-heart-o"></i></Link>
                                                     </li>
-                                                    <li><a href="" className="quickview-box-btn" title="Quick View"><i
-                                                        className="fa fa-eye"></i></a></li>
-                                                    <li><a href="" title="Add to cart"><i className="fa fa-shopping-basket"></i></a>
+                                                    <li><Link className="quickview-box-btn" title="Quick View"><i
+                                                        className="fa fa-eye"></i></Link></li>
+                                                    <li><Link title="Add to cart"><i className="fa fa-shopping-basket"></i></Link>
                                                     </li>
                                                 </ul>
                                                 <div className="clear"></div>
@@ -810,11 +721,11 @@ function Home() {
                                         <h2><a href="product-detail.html">Product Title</a></h2>
                                         <div className="clear"></div>
                                         <ul className="ratings">
-                                            <li><a href=""><i className="fa fa-star"></i></a></li>
-                                            <li><a href=""><i className="fa fa-star"></i></a></li>
-                                            <li><a href=""><i className="fa fa-star"></i></a></li>
-                                            <li><a href=""><i className="fa fa-star"></i></a></li>
-                                            <li><a href=""><i className="fa fa-star-half-o"></i></a></li>
+                                            <li><Link><i className="fa fa-star"></i></Link></li>
+                                            <li><Link><i className="fa fa-star"></i></Link></li>
+                                            <li><Link><i className="fa fa-star"></i></Link></li>
+                                            <li><Link><i className="fa fa-star"></i></Link></li>
+                                            <li><Link><i className="fa fa-star-half-o"></i></Link></li>
                                         </ul>
                                         <div className="clear"></div>
                                         <span className="price">
@@ -990,18 +901,18 @@ function Home() {
                     </div>
                 </div>
                 {/* <!--//==Section Heading End==//--> */}
-                <div className="col-md-12">
-                    <div className="row">
-                        <div className="owl-carousel owl-theme carousel-style-1 " id="home-blog-carousel">
-                            <div className="home-blog-item">
-                                <div className="col-md-12">
-                                    <div className="wa-theme-design-block">
-                                        <figure className="dark-theme">
-                                            <img src="assets/img/all/business-agreement-handshake-hand-gesture_53876-130006.jpg"
+                <div class="col-md-12">
+                    <div class="row">
+                        <div class="owl-carousel owl-theme carousel-style-1 " id="home-blog-carousel">
+                            <div class="home-blog-item">
+                                <div class="col-md-12">
+                                    <div class="wa-theme-design-block">
+                                        <figure class="dark-theme">
+                                            <img src="/Images/all/business-agreement-handshake-hand-gesture_53876-130006.jpg"
                                                 alt="Thumbnail"/>
-                                            <span className="hover-style"></span>
+                                            <span class="hover-style"></span>
                                         </figure>
-                                        <div className="block-caption">
+                                        <div class="block-caption">
                                             <h4>Business deals</h4>
                                             <p>
                                                 We do Honest and transparent business deals
@@ -1010,14 +921,14 @@ function Home() {
                                     </div>
                                 </div>
                             </div>
-                            <div className="home-blog-item">
-                                <div className="col-md-12">
-                                    <div className="wa-theme-design-block">
-                                        <figure className="dark-theme">
-                                            <img src="assets/img/all/discount.jpg" alt="Thumbnail"/>
-                                            <span className="hover-style"></span>
+                            <div class="home-blog-item">
+                                <div class="col-md-12">
+                                    <div class="wa-theme-design-block">
+                                        <figure class="dark-theme">
+                                            <img src="/Images/all/discount.jpg" alt="Thumbnail"/>
+                                            <span class="hover-style"></span>
                                         </figure>
-                                        <div className="block-caption">
+                                        <div class="block-caption">
                                             <h4>Discounts</h4>
                                             <p>
 
@@ -1029,14 +940,14 @@ function Home() {
                                     </div>
                                 </div>
                             </div>
-                            <div className="home-blog-item">
-                                <div className="col-md-12">
-                                    <div className="wa-theme-design-block">
-                                        <figure className="dark-theme">
-                                            <img src="assets/img/all/professionals.jpg" alt="Thumbnail"/>
-                                            <span className="hover-style"></span>
+                            <div class="home-blog-item">
+                                <div class="col-md-12">
+                                    <div class="wa-theme-design-block">
+                                        <figure class="dark-theme">
+                                            <img src="/Images/all/professionals.jpg" alt="Thumbnail"/>
+                                            <span class="hover-style"></span>
                                         </figure>
-                                        <div className="block-caption">
+                                        <div class="block-caption">
                                             <h4>Professionals
                                             </h4>
                                             <p>

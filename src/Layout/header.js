@@ -13,7 +13,7 @@ function Header() {
                     <div className="container-fluid">
                         <div className="row">
                             <div className="col-md-3 col-sm-2 col-xs-12 navbar-brand" style={{padding: 25}} >
-                                <img src="https://latestcorporation.com/assets/img/logol.png" className="img-fluid bg-white"/>
+                                <img src="https://latestcorporation.com/assets/img/logol.png" className="img-fluid bg-white" alt=""/>
                             </div>
                             <div className="col-md-6 col-sm-6 col-xs-12">
                                 <div className="navbar-header">
@@ -32,9 +32,9 @@ function Header() {
                                 <div className="navbar-collapse collapse">
                                     {/* <!-- Right nav Start --> */}
                                     <ul className="nav navbar-nav sm" data-menus-id="16951432453584404">
-                                        <li><a href="index.html">Home</a></li>
+                                        <li><Link to="">Home</Link></li>
                                         <li>
-                                            <a href="#">About </a>
+                                            <Link to="aboutUs">About </Link>
                                         </li>
                                         {/* <li>
                                             <!-- <div className="dropdown">
@@ -42,21 +42,24 @@ function Header() {
                                                   <i className="fa fa-caret-down"></i>
                                                 </button>
                                                 <div className="dropdown-content">
-                                                  <a href="#">Link 1</a>
-                                                  <a href="#">Link 2</a>
-                                                  <a href="#">Link 3</a>
+                                                  <Link="#">Link 1</Link=>
+                                                  <Link="#">Link 2</Link=>
+                                                  <Link="#">Link 3</Link=>
                                                 </div>
                                               </div>  -->
-                                            <a href="kitchenSink.html">Kitchen Sink</a>
+                                            <Link="kitchenSink.html">Kitchen Sink</Link=>
                                         </li> */}
                                         <li>
-                                            <a href="brass.html">Brass</a>
+                                            <Link to="brass">Brass</Link>
                                         </li>
                                         <li>
-                                            <a href="#">Team</a>
+                                            <Link to="kitchenSink">Kitchen Sink</Link>
+                                        </li>
+                                        <li>
+                                            <Link to="#">Team</Link>
                                         </li>
 
-                                        <li><a href="contactUs.html">Contact</a></li>
+                                        <li><Link to="contact">Contact</Link></li>
                                     </ul>
                                     {/* <!-- /.Right nav  End--> */}
                                 </div>
