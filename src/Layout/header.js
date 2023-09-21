@@ -50,10 +50,10 @@ function Header() {
                                             <Link="kitchenSink.html">Kitchen Sink</Link=>
                                         </li> */}
                                         <li>
-                                            <Link to="brass">Brass</Link>
+                                            <Link to="/products/brass">Brass</Link>
                                         </li>
                                         <li>
-                                            <Link to="kitchenSink">Kitchen Sink</Link>
+                                            <Link to="/products/kitchensink">Kitchen Sink</Link>
                                         </li>
                                         <li>
                                             <Link to="#">Team</Link>

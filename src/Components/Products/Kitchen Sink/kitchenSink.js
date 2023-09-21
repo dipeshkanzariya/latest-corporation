@@ -1,4 +1,5 @@
 import "../../../main.css";
+import { Link } from "react-router-dom";
 
 function KitchenSink() {
     return (
@@ -89,7 +90,7 @@ function KitchenSink() {
                                         <div class="row">
                                             <div class="wa-products-caption wa-list-caption text-left">
                                                 <h2>
-                                                    <a href="kitchenSinkByID.html">Platinium </a>
+                                                    <Link to="/products/kitchensink/:id">Platinium </Link>
                                                 </h2>
                                                 <div class="clear"></div>
                                                 {/* <!-- <ul class="ratings">
@@ -109,7 +110,7 @@ function KitchenSink() {
                                                 </p>
                                                 <ul class="wa-products-icon">
                                                     {/* <!-- <li><a href="" title="Add to wishlist"><i class="fa fa-heart-o"></i></a></li> --> */}
-                                                    <li><a href="kitchenSinkByID.html" class="" title="Quick View"><i class="fa fa-eye"></i></a></li>
+                                                    <li><Link to="/products/kitchensink/:id" class="" title="Quick View"><i class="fa fa-eye"></i></Link></li>
                                                     {/* <!-- <li><a href="" title="Add to cart"><i class="fa fa-shopping-basket"></i></a></li> --> */}
                                                 </ul>
                                             </div>
@@ -132,7 +133,7 @@ function KitchenSink() {
                                         <div class="row">
                                             <div class="wa-products-caption wa-list-caption text-left">
                                                 <h2>
-                                                    <a href="kitchenSinkByID.html">Marvel</a>
+                                                    <Link to="/products/kitchensink/:id">Marvel</Link>
                                                 </h2>
                                                 <div class="clear"></div>
                                                 {/* <!-- <ul class="ratings">
@@ -152,7 +153,7 @@ function KitchenSink() {
                                                 </p>
                                                 <ul class="wa-products-icon">
                                                     {/* <!-- <li><a href="" title="Add to wishlist"><i class="fa fa-heart-o"></i></a></li> --> */}
-                                                    <li><a href="kitchenSinkByID.html" class="" title="Quick View"><i class="fa fa-eye"></i></a></li>
+                                                    <li><Link to="/products/kitchensink/:id" class="" title="Quick View"><i class="fa fa-eye"></i></Link></li>
                                                     {/* <!-- <li><a href="" title="Add to cart"><i class="fa fa-shopping-basket"></i></a></li> --> */}
                                                 </ul>
                                             </div>
@@ -174,7 +175,7 @@ function KitchenSink() {
                                         <div class="row">
                                             <div class="wa-products-caption wa-list-caption text-left">
                                                 <h2>
-                                                    <a href="kitchenSinkByID.html">Prime</a>
+                                                    <Link to="/products/kitchensink/:id">Prime</Link>
                                                 </h2>
                                                 <div class="clear"></div>
                                                 {/* <!-- <ul class="ratings">
@@ -194,7 +195,7 @@ function KitchenSink() {
                                                 </p>
                                                 <ul class="wa-products-icon">
                                                     {/* <!-- <li><a href="" title="Add to wishlist"><i class="fa fa-heart-o"></i></a></li> --> */}
-                                                    <li><a href="kitchenSinkByID.html" class="" title="Quick View"><i class="fa fa-eye"></i></a></li>
+                                                    <li><Link to="/products/kitchensink/:id" class="" title="Quick View"><i class="fa fa-eye"></i></Link></li>
                                                     {/* <!-- <li><a href="" title="Add to cart"><i class="fa fa-shopping-basket"></i></a></li> --> */}
                                                 </ul>
                                             </div>
@@ -216,7 +217,7 @@ function KitchenSink() {
                                         <div class="row">
                                             <div class="wa-products-caption wa-list-caption text-left">
                                                 <h2>
-                                                    <a href="kitchenSinkByID.html">Crystel</a>
+                                                    <Link to="/products/kitchensink/:id">Crystel</Link>
                                                 </h2>
                                                 <div class="clear"></div>
                                                 {/* <!-- <ul class="ratings">
@@ -236,7 +237,7 @@ function KitchenSink() {
                                                 </p>
                                                 <ul class="wa-products-icon">
                                                     {/* <!-- <li><a href="" title="Add to wishlist"><i class="fa fa-heart-o"></i></a></li> --> */}
-                                                    <li><a href="kitchenSinkByID.html" class="" title="Quick View"><i class="fa fa-eye"></i></a></li>
+                                                    <li><Link to="/products/kitchensink/:id" class="" title="Quick View"><i class="fa fa-eye"></i></Link></li>
                                                     {/* <!-- <li><a href="" title="Add to cart"><i class="fa fa-shopping-basket"></i></a></li> --> */}
                                                 </ul>
                                             </div>
@@ -258,7 +259,7 @@ function KitchenSink() {
                                         <div class="row">
                                             <div class="wa-products-caption wa-list-caption text-left">
                                                 <h2>
-                                                    <a href="kitchenSinkByID.html">Dovel</a>
+                                                    <Link to="/products/kitchensink/:id">Dovel</Link>
                                                 </h2>
                                                 <div class="clear"></div>
                                                 {/* <!-- <ul class="ratings">
@@ -278,7 +279,7 @@ function KitchenSink() {
                                                 </p>
                                                 <ul class="wa-products-icon">
                                                     {/* <!-- <li><a href="" title="Add to wishlist"><i class="fa fa-heart-o"></i></a></li> --> */}
-                                                    <li><a href="kitchenSinkByID.html" class="" title="Quick View"><i class="fa fa-eye"></i></a></li>
+                                                    <li><Link to="/products/kitchensink/:id" class="" title="Quick View"><i class="fa fa-eye"></i></Link></li>
                                                     {/* <!-- <li><a href="" title="Add to cart"><i class="fa fa-shopping-basket"></i></a></li> --> */}
                                                 </ul>
                                             </div>

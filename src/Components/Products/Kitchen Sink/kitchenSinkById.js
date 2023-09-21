@@ -167,7 +167,7 @@ function KitchenSinkById() {
                                                     </select>
                                                 </div> --> */}
                                             </div>
-                                            <div class="form-group col-sm-12 padL0 quantity">
+                                            {/* <div class="form-group col-sm-12 padL0 quantity">
                                                 <label><strong>Tags</strong></label>
                                                 <div class="tag-list">
                                                     <a class="btnlight" href="#"><i class="fa fa-tags"
@@ -184,7 +184,7 @@ function KitchenSinkById() {
                                                     <a class="btnlight" href=""><i class="fa fa-tags"
                                                             aria-hidden="true"></i> Granite</a>
                                                 </div>
-                                            </div>
+                                            </div> */}
                                         </div>
                                     </div>
                                 </div>
