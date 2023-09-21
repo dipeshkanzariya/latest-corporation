@@ -36,7 +36,7 @@ function BrassProducts() {
                                 <div className="wa-products bg-warning">
                                     <div className="wa-products-thumbnail wa-item">
                                         <img src="/Images/product/brass insert.jpg" alt=""/>
-                                        {/* <!-- <div className="caption">
+                                         <div className="caption">
                                             <div className="caption-text">
                                                 <ul className="wa-products-icon">
                                                    
@@ -45,7 +45,7 @@ function BrassProducts() {
                                                 </ul>
                                                 <div className="clear"></div>
                                             </div>
-                                        </div> --> */}
+                                        </div> 
                                     </div>
                                     <div className="wa-products-caption">
                                         <h2>
