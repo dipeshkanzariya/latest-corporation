@@ -49,7 +49,7 @@ function BrassProducts() {
                                     </div>
                                     <div className="wa-products-caption">
                                         <h2>
-                                            <a href="product-detail.html">BRASS THREADED INSERTS</a>
+                                           <Link to="/products/brass/:id"> BRASS THREADED INSERTS</Link>
                                         </h2>
                                         <div className="clear"></div>
                                     </div>
@@ -74,7 +74,7 @@ function BrassProducts() {
                                     </div>
                                     <div className="wa-products-caption">
                                         <h2>
-                                            <a href="product-detail.html">BRASS HEX NUT</a>
+                                            <Link to="/products/brass/:id">BRASS HEX NUT</Link>
                                         </h2>
                                         <div className="clear"></div>
                                     </div>
@@ -99,7 +99,7 @@ function BrassProducts() {
                                     </div>
                                     <div className="wa-products-caption">
                                         <h2>
-                                            <a href="product-detail.html">BRASS PIPE FITTINGS</a>
+                                            <Link to="/products/brass/:id">BRASS PIPE FITTINGS</Link>
                                         </h2>
                                         <div className="clear"></div>
                                     </div>
@@ -124,7 +124,7 @@ function BrassProducts() {
                                     </div>
                                     <div className="wa-products-caption">
                                         <h2>
-                                            <a href="product-detail.html">BRASS RODS</a>
+                                            <Link to="/products/brass/:id">BRASS RODS</Link>
                                         </h2>
                                         <div className="clear"></div>
                                     </div>
