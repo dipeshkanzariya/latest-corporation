@@ -15,7 +15,7 @@ function ContactUs() {
                         <div className="breadcrumb-box">
                             <ul className="breadcrumb">
                                 <li>
-                                    <Link to="">Home</Link>
+                                    <Link to="/">Home</Link>
                                 </li>
                                 <li className="active">Contact us</li>
                             </ul>

@@ -13,7 +13,7 @@ function BrassProducts() {
                         <div className="breadcrumb-box">
                             <ul className="breadcrumb">
                                 <li>
-                                    <a href="index.html">Home</a>
+                                    <Link to="/">Home</Link>
                                 </li>
                                 <li className="active">Brass</li>
                             </ul>

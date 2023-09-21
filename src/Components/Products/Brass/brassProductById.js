@@ -13,10 +13,10 @@ function BrassProductById() {
                     <div className="breadcrumb-box">
                         <ul className="breadcrumb">
                             <li>
-                                <Link to="">Home</Link>
+                                <Link to="/">Home</Link>
                             </li>
                             <li>
-                                <Link to="product/brass">Brass</Link>
+                                <Link to="/products/brass">Brass</Link>
                             </li>
                             <li className="active">product Detail</li>
                         </ul>

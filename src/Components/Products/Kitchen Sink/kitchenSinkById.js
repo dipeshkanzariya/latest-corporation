@@ -1,24 +1,24 @@
 import "../../../main.css"
-
+import { Link } from "react-router-dom";
 function KitchenSinkById() {
     return (
         <>
             {/* <!--//==Page Header Start==//--> */}
-    <div class="page-header black-overlay">
-        <div class="container breadcrumb-section">
-            <div class="row pad-s15">
-                <div class="col-md-12">
+    <div className="page-header black-overlay">
+        <div className="container breadcrumb-section">
+            <div className="row pad-s15">
+                <div className="col-md-12">
                     <h2>PRIME KITCHEN SINK</h2>
-                    <div class="clear"></div>
-                    <div class="breadcrumb-box">
-                        <ul class="breadcrumb">
+                    <div className="clear"></div>
+                    <div className="breadcrumb-box">
+                        <ul className="breadcrumb">
                             <li>
-                                <a href="index.html">Home</a>
+                                <Link to ="/">Home</Link>
                             </li>
                             <li>
-                                <a href="kitchenSink.html">kitchen Sink</a>
+                                <Link to ="/products/kitchensink">kitchen Sink</Link>
                             </li>
-                            <li class="active">PRIME KITCHEN SINK</li>
+                            <li className="active">PRIME KITCHEN SINK</li>
                         </ul>
                     </div>
                 </div>
@@ -28,112 +28,112 @@ function KitchenSinkById() {
     {/* <!--//==Page Header End==//--> */}
 
     {/* <!--//=========product Detail Start=========//--> */}
-    <section class="page_single">
-        <div class="container">
-            <div class="row padTB100">
-                <div class="prod-info-section">
-                    <div class="clearfix">
+    <section className="page_single">
+        <div className="container">
+            <div className="row padTB100">
+                <div className="prod-info-section">
+                    <div className="clearfix">
                         {/* <!--Thumbnail Column--> */}
-                        <div class="carousel-column col-lg-6 col-md-6 col-sm-5 col-xs-12">
-                            <div class="wa-product-main-image marB20">
-                                <a href="https://uniqueadmin.latestcorporation.com/admin_latest_corporation/Images/prime.png"
-                                    class="fancybox" data-fancybox-group="group" title="Chrome Finish faucet"> <img
+                        <div className="carousel-column col-lg-6 col-md-6 col-sm-5 col-xs-12">
+                            <div className="wa-product-main-image marB20">
+                                <Link to ="https://uniqueadmin.latestcorporation.com/admin_latest_corporation/Images/prime.png"
+                                    className="fancybox" data-fancybox-group="group" title="Chrome Finish faucet"> <img
                                         src="https://uniqueadmin.latestcorporation.com/admin_latest_corporation/Images/prime.png"
-                                        alt=""/> </a>
+                                        alt=""/> </Link>
                             </div>
-                            <div id="wa-slide-image" class="owl-carousel  wa-slide-image carousel-style-1">
-                                <a href="https://uniqueadmin.latestcorporation.com/admin_latest_corporation/Images/prime.png"
-                                    class="fancybox" data-fancybox-group="group" title="Chrome Finish faucet"> <img
+                            <div id="wa-slide-image" className="owl-carousel  wa-slide-image carousel-style-1">
+                                <Link to ="https://uniqueadmin.latestcorporation.com/admin_latest_corporation/Images/prime.png"
+                                    className="fancybox" data-fancybox-group="group" title="Chrome Finish faucet"> <img
                                         src="https://uniqueadmin.latestcorporation.com/admin_latest_corporation/Images/prime.png"
-                                        alt=""/> </a>
-                                <a href="https://www.quazitosink.com/wp-content/uploads/2022/04/prime-dimension-1024x348.png"
-                                    class="fancybox" data-fancybox-group="group" title="Chrome Finish faucet"> <img
+                                        alt=""/> </Link>
+                                <Link to ="https://www.quazitosink.com/wp-content/uploads/2022/04/prime-dimension-1024x348.png"
+                                    className="fancybox" data-fancybox-group="group" title="Chrome Finish faucet"> <img
                                         src="https://www.quazitosink.com/wp-content/uploads/2022/04/prime-dimension-1024x348.png"
-                                        alt=""/> </a>
-                                {/* <!-- <a href="assets/img/product/product-detail-3.jpg" class="fancybox" data-fancybox-group="group" title="Chrome Finish faucet"> <img src="assets/img/product/product-detail-3.jpg" alt=""> </a>
-                                    <a href="assets/img/product/product-detail-4.jpg" class="fancybox" data-fancybox-group="group" title="Chrome Finish faucet"> <img src="assets/img/product/product-detail-4.jpg" alt=""> </a>
-                                    <a href="assets/img/product/product-detail-5.jpg" class="fancybox" data-fancybox-group="group" title="Chrome Finish faucet"> <img src="assets/img/product/product-detail-5.jpg" alt=""> </a>   --> */}
+                                        alt=""/> </Link>
+                                {/* <!-- <Link to ="assets/img/product/product-detail-3.jpg" className="fancybox" data-fancybox-group="group" title="Chrome Finish faucet"> <img src="assets/img/product/product-detail-3.jpg" alt=""> </Link>
+                                    <Link to ="assets/img/product/product-detail-4.jpg" className="fancybox" data-fancybox-group="group" title="Chrome Finish faucet"> <img src="assets/img/product/product-detail-4.jpg" alt=""> </Link>
+                                    <Link to ="assets/img/product/product-detail-5.jpg" className="fancybox" data-fancybox-group="group" title="Chrome Finish faucet"> <img src="assets/img/product/product-detail-5.jpg" alt=""> </Link>   --> */}
                             </div>
                         </div>
                         {/* <!--Content Column--> */}
-                        <div class="content-column col-lg-6 col-md-6 col-sm-7 col-xs-12">
-                            <div class="outer wow fadeInRight">
-                                <div class="title-box">
-                                    <div class="inner marB30">
-                                        <h2 class="marB10">Prime kitchen Sink</h2>
-                                        {/* <!-- <p class="availability in-stock"><strong>Availability:</strong> <span>In
+                        <div className="content-column col-lg-6 col-md-6 col-sm-7 col-xs-12">
+                            <div className="outer wow fadeInRight">
+                                <div className="title-box">
+                                    <div className="inner marB30">
+                                        <h2 className="marB10">Prime kitchen Sink</h2>
+                                        {/* <!-- <p className="availability in-stock"><strong>Availability:</strong> <span>In
                                                 stock</span></p>
-                                        <ul class="ratings">
-                                            <li><a href=""><i class="fa fa-star"></i></a></li>
-                                            <li><a href=""><i class="fa fa-star"></i></a></li>
-                                            <li><a href=""><i class="fa fa-star"></i></a></li>
-                                            <li><a href=""><i class="fa fa-star"></i></a></li>
-                                            <li><a href=""><i class="fa fa-star-half-o"></i></a></li>
+                                        <ul className="ratings">
+                                            <li><Link to =""><i className="fa fa-star"></i></Link></li>
+                                            <li><Link to =""><i className="fa fa-star"></i></Link></li>
+                                            <li><Link to =""><i className="fa fa-star"></i></Link></li>
+                                            <li><Link to =""><i className="fa fa-star"></i></Link></li>
+                                            <li><Link to =""><i className="fa fa-star-half-o"></i></Link></li>
                                         </ul>
-                                        <span class="price marB10">
+                                        <span className="price marB10">
                                             $100
                                             <del>$200</del>
-                                            <span class="clear"></span>
+                                            <span className="clear"></span>
                                         </span> -->
                                         <!-- <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies .</p>
                                             <p>It has survived not only five centuries, but also the leap into ele ctronic typesetting, remaining essentially un changed The industry's standard dummy text ever 
                                                 since.
                                             </p> --> */}
                                     </div>
-                                    <div class="clear"></div>
+                                    <div className="clear"></div>
                                     {/* <!--Options--> */}
-                                    <div class="prod-options marB10">
+                                    <div className="prod-options marB10">
 
-                                        <div class="clearfix">
+                                        <div className="clearfix">
                                             <div>
-                                                <div class="tag-list padL0 marL5 marB5">
+                                                <div className="tag-list padL0 marL5 marB5">
                                                     <label><strong>Size : </strong> </label>
-                                                    <a class="btnlight" href="#">18X16 inch</a>
+                                                    <a className="btnlight" href="#">18X16 inch</a>
                                                 </div>
-                                                <div class="tag-list padL0 marL5">
-                                                    <label class=""><strong>Weight : </strong> </label>
+                                                <div className="tag-list padL0 marL5">
+                                                    <label className=""><strong>Weight : </strong> </label>
 
-                                                    <a class="btnlight" href="#">9 kg(Approx)</a>
+                                                    <a className="btnlight" href="#">9 kg(Approx)</a>
                                                 </div>
                                             </div>
 
-                                            <div class="row mt-4 container">
-                                                <div class="col-lg-6 col-md-6 col-sm-7 col-xs-12 container">
-                                                    <div class="portfolio-description">
-                                                        <div class="section-title">
-                                                            <h2 class="padTB10"><u>Colour / Shade</u>
+                                            <div className="row mt-4 container">
+                                                <div className="col-lg-6 col-md-6 col-sm-7 col-xs-12 container">
+                                                    <div className="portfolio-description">
+                                                        <div className="section-title">
+                                                            <h2 className="padTB10"><u>Colour / Shade</u>
                                                             </h2>
                                                         </div>
-                                                        <div class="row">
+                                                        <div className="row">
 
-                                                            <div class="col-lg-8 col-md-5 padTB10">
-                                                                <div class="row">
-                                                                    <h3 class="title text-center"><a aria-current="page"
-                                                                            class="active"
+                                                            <div className="col-lg-8 col-md-5 padTB10">
+                                                                <div className="row">
+                                                                    <h3 className="title text-center"><a aria-current="page"
+                                                                            className="active"
                                                                             href="/Kitchen-Sink/ProductKichansink/19">Granite
                                                                             Series</a></h3>
                                                                 </div>
-                                                                <div class="row">
-                                                                    <div class="col-lg-2"></div>
-                                                                    <div class="col-lg-10"><img
+                                                                <div className="row">
+                                                                    <div className="col-lg-2"></div>
+                                                                    <div className="col-lg-10"><img
                                                                             src="https://www.quazitosink.com/wp-content/uploads/2022/04/granite-color-1024x244.png"
-                                                                            class="img-fluid "
+                                                                            className="img-fluid "
                                                                             alt="Latest Corporation img kichan sink colour"/>
                                                                     </div>
                                                                 </div>
                                                             </div>
-                                                            <div class="col-lg-8 col-md-5 padTB10">
-                                                                <div class="row">
-                                                                    <h3 class="title text-center"><a aria-current="page"
-                                                                            class="active"
+                                                            <div className="col-lg-8 col-md-5 padTB10">
+                                                                <div className="row">
+                                                                    <h3 className="title text-center"><a aria-current="page"
+                                                                            className="active"
                                                                             href="/Kitchen-Sink/ProductKichansink/19">Metallic
                                                                             Series</a></h3>
                                                                 </div>
-                                                                <div class="row">
-                                                                    <div class="col-lg-2"></div>
-                                                                    <div class="col-lg-10"><img
+                                                                <div className="row">
+                                                                    <div className="col-lg-2"></div>
+                                                                    <div className="col-lg-10"><img
                                                                             src="https://www.quazitosink.com/wp-content/uploads/2022/04/metalic-color-1024x280.png"
-                                                                            class="img-fluid "
+                                                                            className="img-fluid "
                                                                             alt="Latest Corporation img kichan sink colour"/>
                                                                     </div>
                                                                 </div>
@@ -143,10 +143,10 @@ function KitchenSinkById() {
                                                 </div>
                                             </div>
 
-                                            <div class="col-md-5 col-sm-4 padL5">
-                                                {/* <!-- <div class="form-group">
+                                            <div className="col-md-5 col-sm-4 padL5">
+                                                {/* <!-- <div className="form-group">
                                                     <label><strong>Color :</strong> </label>
-                                                    <div class="clear"></div>
+                                                    <div className="clear"></div>
                                                     <select name="sel-color">
                                                         <option>Select Color</option>
                                                         <option>Chrome</option>
@@ -155,10 +155,10 @@ function KitchenSinkById() {
                                                     </select>
                                                 </div> --> */}
                                             </div>
-                                            <div class="col-md-5 col-sm-4 padL0">
-                                                {/* <!-- <div class="form-group">
+                                            <div className="col-md-5 col-sm-4 padL0">
+                                                {/* <!-- <div className="form-group">
                                                     <label><strong>Required For :</strong> </label>
-                                                    <div class="clear"></div>
+                                                    <div className="clear"></div>
                                                     <select name="sel-color">
                                                         <option>Select Requirement</option>
                                                         <option>Kitchen</option>
@@ -167,21 +167,21 @@ function KitchenSinkById() {
                                                     </select>
                                                 </div> --> */}
                                             </div>
-                                            {/* <div class="form-group col-sm-12 padL0 quantity">
+                                            {/* <div className="form-group col-sm-12 padL0 quantity">
                                                 <label><strong>Tags</strong></label>
-                                                <div class="tag-list">
-                                                    <a class="btnlight" href="#"><i class="fa fa-tags"
+                                                <div className="tag-list">
+                                                    <a className="btnlight" href="#"><i className="fa fa-tags"
                                                             aria-hidden="true"></i> Kitchen</a>
 
-                                                    <a class="btnlight" href=""><i class="fa fa-tags"
+                                                    <a className="btnlight" href=""><i className="fa fa-tags"
                                                             aria-hidden="true"></i> Tap</a>
-                                                    <a class="btnlight" href=""><i class="fa fa-tags"
+                                                    <a className="btnlight" href=""><i className="fa fa-tags"
                                                             aria-hidden="true"></i> copper</a>
-                                                    <a class="btnlight" href=""><i class="fa fa-tags"
+                                                    <a className="btnlight" href=""><i className="fa fa-tags"
                                                             aria-hidden="true"></i>Crome</a>
-                                                    <a class="btnlight" href=""><i class="fa fa-tags"
+                                                    <a className="btnlight" href=""><i className="fa fa-tags"
                                                             aria-hidden="true"></i> Matte Finish</a>
-                                                    <a class="btnlight" href=""><i class="fa fa-tags"
+                                                    <a className="btnlight" href=""><i className="fa fa-tags"
                                                             aria-hidden="true"></i> Granite</a>
                                                 </div>
                                             </div> */}
@@ -189,10 +189,10 @@ function KitchenSinkById() {
                                     </div>
                                 </div>
                                 {/* <!--Add--> */}
-                                {/* <!-- <div class="add-options">
-                                    <button type="button" class="theme-button">Order Now</button>
-                                    <button type="button" class="theme-button"><span
-                                            class="fa fa-heart"></span></button>
+                                {/* <!-- <div className="add-options">
+                                    <button type="button" className="theme-button">Order Now</button>
+                                    <button type="button" className="theme-button"><span
+                                            className="fa fa-heart"></span></button>
                                 </div> --> */}
                             </div>
                         </div>
@@ -201,26 +201,26 @@ function KitchenSinkById() {
             </div>
         </div>
     </section>
-    <div class="row marT4 container">
-        <div class="col-lg-8 container">
+    <div className="row marT4 container">
+        <div className="col-lg-8 container">
             
-                <div class="row">
-                    <div class="portfolio-description">
-                        <div class="marL100">
+                <div className="row">
+                    <div className="portfolio-description">
+                        <div className="marL100">
                             <h1>
         
                                 Dimensions
                             </h1>
                         </div>
-                    <div class="col-lg-8">
-                        <div class="row">
-                            <h3 class="title text-center"><a aria-current="page" class="active"
+                    <div className="col-lg-8">
+                        <div className="row">
+                            <h3 className="title text-center"><a aria-current="page" className="active"
                                     href="/Kitchen-Sink/ProductKichansink/19"></a>
                             </h3>
                         </div>
-                        <div class="row container">
-                            <div class="col-lg-1"></div>
-                            <div class="col-lg-11 mb-1"><img class="img-fluid "
+                        <div className="row container">
+                            <div className="col-lg-1"></div>
+                            <div className="col-lg-11 mb-1"><img className="img-fluid "
                                     alt="Latest Corporation img kitchan sink Dimensions"
                                     src="https://www.quazitosink.com/wp-content/uploads/2022/04/prime-dimension-1024x348.png"/>
                             </div>
@@ -232,16 +232,16 @@ function KitchenSinkById() {
     </div>
     {/* <!--//=========product Detail End=========//--> */}
     {/* <!--//==product Description Start==//--> */}
-    <section class="page_single">
-        <div class="container">
-            <div class="row">
-                <div class="prod-info-section">
-                    <div class="clearfix">
-                        <div class="col-md-12">
-                            <div class="block-caption">
-                                <div class="left-title">
-                                    <h2>Product Discription <span class="heading-border"></span></h2>
-                                    <div class="clear"></div>
+    <section className="page_single">
+        <div className="container">
+            <div className="row">
+                <div className="prod-info-section">
+                    <div className="clearfix">
+                        <div className="col-md-12">
+                            <div className="block-caption">
+                                <div className="left-title">
+                                    <h2>Product Discription <span className="heading-border"></span></h2>
+                                    <div className="clear"></div>
                                 </div>
                                 <p>Nam quis magna in dui fringilla sodales et at ante. Nulla condimentum sed magna ut
                                     Maecenas lacus ante, mattis sed euismod sed, iaculis sed libInteger tortor tellus,

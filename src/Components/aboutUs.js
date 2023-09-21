@@ -1,5 +1,5 @@
 import "../main.css";
-
+import { Link } from "react-router-dom";
 function AboutUs() {
     return (
         <>
@@ -13,7 +13,7 @@ function AboutUs() {
                             <div className="breadcrumb-box">
                                 <ul className="breadcrumb">
                                     <li>
-                                        <a href="index.html">Home</a>
+                                        <Link to="/">Home</Link>
                                     </li>
                                     <li className="active">About</li>
                                 </ul>
