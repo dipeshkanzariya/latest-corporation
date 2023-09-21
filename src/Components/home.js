@@ -20,7 +20,7 @@ function Home() {
                 <div id="home1-main-slider" className="owl-carousel owl-theme">
                     <div className="item sliderimg">
                         <figure>
-                            <img src="../assets/img/wa-blog-detail3.jpg" alt="" />
+                            <img src="../assets/img/all/wa-blog-detail3.jpg" alt="" />
                             <img src="../assets/img/all/wa-blog-detail3.jpg" className="hidden-lg hidden-md" alt="" />
                             <figcaption>
                                 <div className="container">
@@ -48,7 +48,7 @@ function Home() {
                     </div>
                     <div className="item sliderimg">
                         <figure>
-                            <img src="https://latestcorporation.com/assets/img/slide/c.jpg" 
+                            <img src={"https://latestcorporation.com/assets/img/slide/c.jpg"} 
                                 alt="" />
                             <img src="https://latestcorporation.com/assets/img/slide/c.jpg" 
                                 alt="" />
