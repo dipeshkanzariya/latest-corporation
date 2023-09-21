@@ -1083,17 +1083,29 @@ a.ui-button:active,
 .ui-button:active .ui-icon {
 	background-image: url("../img/icons/ui-icons_ffffff_256x240.png");
 }
+<<<<<<< HEAD
+.ui-state-highlight .ui-icon,
+.ui-button .ui-state-highlight.ui-icon {
+	background-image: url("../img/icons/ui-icons_777620_256x240.png");
+}
+.ui-state-error .ui-icon,
+=======
 /* .ui-state-highlight .ui-icon,
 .ui-button .ui-state-highlight.ui-icon {
 	background-image: url("../img/icons/ui-icons_777620_256x240.png");
 } */
 /* .ui-state-error .ui-icon,
+>>>>>>> 577ef5bd1730e425ed775ae14e2c582dd51e9b5e
 .ui-state-error-text .ui-icon {
 	background-image: url("../img/icons/ui-icons_cc0000_256x240.png");
 }
 .ui-button .ui-icon {
 	background-image: url("../img/icons/ui-icons_777777_256x240.png");
+<<<<<<< HEAD
+}
+=======
 } */
+>>>>>>> 577ef5bd1730e425ed775ae14e2c582dd51e9b5e
 
 /* positioning */
 .ui-icon-blank { background-position: 16px 16px; }
