@@ -1088,12 +1088,16 @@ a.ui-button:active,
 	background-image: url("../img/icons/ui-icons_777620_256x240.png");
 } */
 /* .ui-state-error .ui-icon,
+}
+.ui-state-error .ui-icon,
 .ui-state-error-text .ui-icon {
 	background-image: url("../img/icons/ui-icons_cc0000_256x240.png");
 }
 .ui-button .ui-icon {
 	background-image: url("../img/icons/ui-icons_777777_256x240.png");
 } */
+	/* background-image: url("../img/icons/ui-icons_777777_256x240.png"); */ */
+
 
 /* positioning */
 .ui-icon-blank { background-position: 16px 16px; }
