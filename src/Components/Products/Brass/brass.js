@@ -32,8 +32,8 @@ function BrassProducts() {
                     <div className="col-md-12 col-sm-12 col-xs-12">
                         <div className="row">
                             {/* <!--product Item--> */}
-                            <div className="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-                                <div className="wa-products bg-warning">
+                            <div className="col-lg-3 col-md-3 col-sm-6 col-xs-12 bg-warning pad10 ">
+                                <div className="wa-products">
                                     <div className="wa-products-thumbnail wa-item">
                                         <img src="/Images/product/brass insert.jpg" alt=""/>
                                          <div className="caption">

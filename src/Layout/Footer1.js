@@ -1,10 +1,10 @@
+import "../main.css"
 import { Link } from "react-router-dom";
-import "../main.css";
-
 function Footer() {
-    return (
-        <>
-            <footer id="main-footer" className="dark-footer footer-style1">
+    <>
+    <h1>DIpesh Kanzariya</h1>
+        {/* <!--//=========Footer Start=========//--> */}
+        <footer id="main-footer" className="dark-footer footer-style1">
             {/* <!--Upper Footer Block--> */}
             <div className="upper-footer wv_footer">
                 <div className="container">
@@ -103,10 +103,8 @@ function Footer() {
                 </div>
             </div>
         </footer>
-            {/* Header end */}
-
-        </>
-    );
+        {/* <!--//=========Footer End=========//--> */}
+    </>
 }
 
-export default Footer
+export default Footer;

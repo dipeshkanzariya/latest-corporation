@@ -370,27 +370,27 @@ function Home() {
                                 </div>
                             </div>
                         </div>
-                        <div className="whychooseusimg marT50 marB50">
+                        <div className="whychooseusimg marT50 marB50 why-chose-img">
                             <img src="https://media.istockphoto.com/id/1291035068/vector/business-people-with-gears-employee-team-create-mechanism-with-cogs-manager-with-megaphone.jpg?s=612x612&w=0&k=20&c=6oFQdq3IVfgiodi0T08HoxzD-YQGjfCEfNPM4HtHU8E="
                                 alt="Blog Thumbnail" />
                         </div>
                         <section>
                             <div className="row container  marB100">
 
-                                <div className="col-md-6 icon-box">
+                                <div className="col-md-6 icon-box feature-card-container">
                                     <div className="col-sm-2 feature-icon">
                                         <i className="fa-solid fa-receipt" style={{ fontSize: 40 }}></i>
                                     </div>
-                                    <div className="col-sm-10">
+                                    <div className="col-sm-10 feature-card-content-container">
                                         <h3>PROFESSIONAL WORKERS</h3>
                                         <p>We have professional workers in manufacturing plant.</p>
                                     </div>
                                 </div>
-                                <div className="col-md-6 icon-box">
+                                <div className="col-md-6 icon-box feature-card-container">
                                     <div className="col-sm-2 feature-icon">
                                         <i className="fa-solid fa-cube" style={{ fontSize: 40 }}></i>
                                     </div>
-                                    <div className="col-sm-10">
+                                    <div className="col-sm-10 feature-card-content-container">
                                         <h3>EXCELLENCE IN DESIGN</h3>
                                         <p>By working with some of India’s leading designers, we understand the latest
                                             trends.
@@ -398,20 +398,20 @@ function Home() {
                                             kitchenware items.</p>
                                     </div>
                                 </div>
-                                <div className="col-md-6 icon-box">
+                                <div className="col-md-6 icon-box feature-card-container">
                                     <div className="col-sm-2 feature-icon">
                                         <i className="fa-sharp fa-solid fa-images" style={{ fontSize: 40 }}></i>
                                     </div>
-                                    <div className="col-sm-10">
+                                    <div className="col-sm-10 feature-card-content-container">
                                         <h3>ON TIME DELIVERY</h3>
                                         <p>We provide on time delivory of the sink as we talked.</p>
                                     </div>
                                 </div>
-                                <div className="col-md-6 icon-box">
+                                <div className="col-md-6 icon-box feature-card-container">
                                     <div className="col-sm-2 feature-icon">
                                         <i className="fa-solid fa-shield" style={{ fontSize: 40 }}></i>
                                     </div>
-                                    <div className="col-sm-10">
+                                    <div className="col-sm-10 feature-card-content-container">
                                         <h3>LATEST TECHNOLOGY</h3>
                                         <p>We have latest technology installed in our plants.</p>
                                     </div>
@@ -423,7 +423,7 @@ function Home() {
             </div>
 
             {/* <!--//=============Best Seller Section Start============//--> */}
-            <div className="wa-products-main padT100 padB80">
+            <div className="wa-products-main padT10 padB5">
                 <div className="container">
                     <div className="row">
                         {/* <!--//==Section Heading Start==//--> */}
@@ -743,7 +743,7 @@ function Home() {
             {/* <!--//=============Best Seller Section End============//--> */}
 
             {/* <!--//=========Partners Start=========//--> */}
-    <section className="services text-center padB50 padT50 ">
+    <section className="services text-center padB50 padT10 ">
         <div className="container">
             <div className="row">
                 <div className="col-md-12 col-sm-12">
@@ -805,8 +805,9 @@ function Home() {
             </div>
         </div>
     </section>
-
-    <section id="services" className="services animate__animated animate__fadeInDown" style={{backgroundColor: "white"}}>
+    
+    {/* <!--//== Service Section Start==//--> */}
+    <section id="services" className="services animate__animated animate__fadeInDown padT100" style={{backgroundColor: "white"}}>
         <div className="centered-title">
             <h2>Services <span className="heading-border"></span></h2>
             <div className="clear"></div>
@@ -880,93 +881,117 @@ function Home() {
         </div>
         </div>
     </section>
-    {/* <!--//=========Partners End=========//--> */}
+    {/* <!--//=========Service Section End=========//--> */}
 
     {/* <!--//=========Home Blogs Start=========//--> */}
 
     <section className="blogs_main padTB100 grey-bg">
-        <div className="container">
-            <div className="row">
-                {/* <!--//==Section Heading Start==//--> */}
-                <div className="col-md-12">
-                    <div className="centered-title">
-                        <h2>WHY CHOOSE US ? <span className="heading-border"></span></h2>
-                        <div className="clear"></div>
-                        <em>Our globally recognized enterprise works in a well planned and organized
-                            way by following a customer-focused policy, which helps to make our clients happy and
-                            satisfied. All our business plans are made by senior most professional of the company
-                            keeping in view expectations of customers. Also, the products like Kitchen sink ,
-                            Brass, etc...
-                            offered by us with quality assured and made of high quality raw material.</em>
-                    </div>
-                </div>
-                {/* <!--//==Section Heading End==//--> */}
-                <div class="col-md-12">
-                    <div class="row">
-                        <div class="owl-carousel owl-theme carousel-style-1 " id="home-blog-carousel">
-                            <div class="home-blog-item">
-                                <div class="col-md-12">
-                                    <div class="wa-theme-design-block">
-                                        <figure class="dark-theme">
-                                            <img src="/Images/all/business-agreement-handshake-hand-gesture_53876-130006.jpg"
-                                                alt="Thumbnail"/>
-                                            <span class="hover-style"></span>
-                                        </figure>
-                                        <div class="block-caption">
-                                            <h4>Business deals</h4>
-                                            <p>
-                                                We do Honest and transparent business deals
-                                            </p>
+                <div className="container">
+                    <div className="row">
+                        {/* <!--//==Section Heading Start==//--> */}
+                        <div className="col-md-12">
+                            <div className="centered-title">
+                                <h2>WHY CHOOSE US ? <span className="heading-border"></span></h2>
+                                <div className="clear"></div>
+                                <em>Our globally recognized enterprise works in a well planned and organized
+                                    way by following a customer-focused policy, which helps to make our clients happy and
+                                    satisfied. All our business plans are made by senior most professional of the company
+                                    keeping in view expectations of customers. Also, the products like Kitchen sink ,
+                                    Brass, etc...
+                                    offered by us with quality assured and made of high quality raw material.</em>
+                            </div>
+                        </div>
+                        {/* <!--//==Section Heading End==//--> */}
+                        <div className="col-md-12">
+                            <div className="row">
+                                <div className="owl-carousel owl-theme carousel-style-1 " id="home-blog-carousel"
+                                    style={{opacity: 1,display: "block"}}>
+                                    <div className="owl-wrapper-outer">
+                                        <div className="owl-wrapper"
+                                            style={{width: 1938, left: 0, display: "block", transition: "all 0 ease 0", transform: "translate3d(0, 0, 0)"}}
+                                            
+                                        >
+                                            <div className="owl-item" style={{width: 323}}>
+                                                <div className="home-blog-item">
+                                                    <div className="col-md-12">
+                                                        <div className="wa-theme-design-block">
+                                                            <figure className="dark-theme">
+                                                                <img src="/Images/all/business-agreement-handshake-hand-gesture_53876-130006.jpg"
+                                                                    alt="Thumbnail"/>
+                                                                    <span className="hover-style"></span>
+                                                            </figure>
+                                                            <div className="block-caption">
+                                                                <h4>Business deals</h4>
+                                                                <p>
+                                                                    We do Honest and transparent business deals
+                                                                </p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div className="owl-item" style={{width: 323}}>
+                                                <div className="home-blog-item">
+                                                    <div className="col-md-12">
+                                                        <div className="wa-theme-design-block">
+                                                            <figure className="dark-theme">
+                                                                <img src="/Images/all/discount.jpg" alt="Thumbnail"/>
+                                                                    <span className="hover-style"></span>
+                                                            </figure>
+                                                            <div className="block-caption">
+                                                                <h4>Discounts</h4>
+                                                                <p>
+
+                                                                    Discounts that we offer to our clients depending upon the
+                                                                    order
+                                                                    size.
+                                                                </p>
+
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div className="owl-item" style={{width: 323}}>
+                                                <div className="home-blog-item">
+                                                    <div className="col-md-12">
+                                                        <div className="wa-theme-design-block">
+                                                            <figure className="dark-theme">
+                                                                <img src="/Images/all/professionals.jpg" alt="Thumbnail"/>
+                                                                    <span className="hover-style"></span>
+                                                            </figure>
+                                                            <div className="block-caption">
+                                                                <h4>Professionals
+                                                                </h4>
+                                                                <p>
+
+                                                                    Unit of highly dexterous professionals that is working for
+                                                                    us.
+                                                                </p>
+
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+
+
+                                    <div className="owl-controls clickable" style={{display: "none"}}>
+                                        <div className="owl-buttons">
+                                            <div className="owl-prev">prev</div>
+                                            <div className="owl-next">next</div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="home-blog-item">
-                                <div class="col-md-12">
-                                    <div class="wa-theme-design-block">
-                                        <figure class="dark-theme">
-                                            <img src="/Images/all/discount.jpg" alt="Thumbnail"/>
-                                            <span class="hover-style"></span>
-                                        </figure>
-                                        <div class="block-caption">
-                                            <h4>Discounts</h4>
-                                            <p>
-
-                                                Discounts that we offer to our clients depending upon the order
-                                                size.
-                                            </p>
-
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="home-blog-item">
-                                <div class="col-md-12">
-                                    <div class="wa-theme-design-block">
-                                        <figure class="dark-theme">
-                                            <img src="/Images/all/professionals.jpg" alt="Thumbnail"/>
-                                            <span class="hover-style"></span>
-                                        </figure>
-                                        <div class="block-caption">
-                                            <h4>Professionals
-                                            </h4>
-                                            <p>
-
-                                                Unit of highly dexterous professionals that is working for us.
-                                            </p>
-
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-
                         </div>
                     </div>
                 </div>
-            </div>
-        </div>
-    </section>
+            </section>
     {/* <!--//=========Home Blogs End=========//--> */}
 
         </>

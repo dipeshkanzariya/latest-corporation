@@ -16,6 +16,32 @@ p {
     margin-top: 15px;
 }
 
+.feature-card-container{
+
+    padding: 10px;
+    border-radius: 5px;
+}
+
+@media only screen and (max-width: 550px){
+
+    .feature-card-container{
+
+        margin: 20px 10px;
+        border: 1px solid #e2dddd;
+    }
+
+    .feature-card-content-container{
+
+        text-align: center;
+
+    }
+
+    .why-chose-img{
+
+        text-align: center
+    }
+}
+
 body,
 em,
 h1,
@@ -1534,7 +1560,7 @@ ul.top-ecommerce-icons li a.closeMenu {
 .centered-title {
     position: relative;
     margin-bottom: 50px;
-    text-align: center
+    text-align: center;
 }
 
 .centered-title h2 {
@@ -1549,6 +1575,7 @@ ul.top-ecommerce-icons li a.closeMenu {
 
 .centered-title h3 span {
     color: #202020
+    
 }
 
 .centered-title h2:after {
@@ -1557,7 +1584,7 @@ ul.top-ecommerce-icons li a.closeMenu {
     left: 50%;
     margin-left: -25px;
     bottom: 0;
-    width: 50px
+    width: 50px;
 }
 
 .centered-title .desc-text {
@@ -1579,16 +1606,35 @@ ul.top-ecommerce-icons li a.closeMenu {
 }
 
 .heading-border {
-    width: 50px;
+    width: 50%;
     height: 100%;
     display: inline-block;
     clear: both;
     position: absolute;
     bottom: 5px;
     left: 50%;
-    margin-left: -25px;
-    background-color: none
+    transform: translate(-50% , 0%);
+    background-color: none;
+    border: 1px solid transparent;
+    border-top-color: #817f7f;
+    border-bottom-color: #817f7f;
 }
+
+.heading-border-2 {
+    width: 100px;
+    height: 100%;
+    display: inline-block;
+    clear: both;
+    position: absolute;
+    bottom: 5px;
+    left: 5%;
+    transform: translate(-50% , 0%);
+    background-color: none;
+    border: 1px solid transparent;
+    border-bottom-color: #817f7f;
+    border-bottom-color: 
+}
+
 .brassbanner img{
     max-height: 350px;
     max-width: 350px;
@@ -1632,17 +1678,17 @@ ul.top-ecommerce-icons li a.closeMenu {
 
 .left-title .heading-border,
 .left-title .heading-border:after {
-    display: inline-block;
+    display: block;
     position: absolute;
     margin-left: 0;
     left: 0;
-    clear: both
+    clear: both;
 }
 
 .left-title .heading-border {
     width: 120px;
     height: 1px;
-    bottom: 5px
+    bottom: 5px;
 }
 
 .left-title .heading-border:before {
@@ -1926,6 +1972,26 @@ ul.top-ecommerce-icons li a.closeMenu {
     padding: 0 0 20px;
     position: relative;
     background-color: #fff
+}
+
+.brass-product-image-container{
+
+    background-color: yellow;
+    padding: 10px;
+    /* position: relative; */
+    width: 400px;
+    min-height: 400px;
+    height: 400px;
+}
+
+.brass-product-image-container img{
+
+    min-width: 100%;
+    min-height: 100%;
+    height: 100%;
+    /* position: absolute; */
+    /* object-fit: contain; */
+
 }
 
 .product-list .wa-products {
