@@ -24,7 +24,7 @@ function AboutUs() {
             </div>
             {/* <!--//==Page Header End==//--> */}
 
-            <section className="page_single blogs_main blogs_details padTB100">
+            <section className="page_single blogs_main blogs_details padTB50">
                 <div className="container">
                     <div className="row">
                         {/* <!--//==Blog Detail Section Start==//--> */}
@@ -169,7 +169,7 @@ function AboutUs() {
 
                 <div className="container">
                     <div className="row">
-                        <div className="col-lg-4 col-md-6 icon-box">
+                        <div className="col-lg-4 col-md-6 icon-box feature-card-container">
                             <div className="icon text-center h1 text-muted"><i className="fa-solid fa-briefcase"></i></div>
                             <div className="text-center">
                                 <h4 className="title">Best Quality Products
@@ -181,7 +181,7 @@ function AboutUs() {
                                     customer.</p>
                             </div>
                         </div>
-                        <div className="col-lg-4 col-md-6 icon-box">
+                        <div className="col-lg-4 col-md-6 icon-box feature-card-container">
                             <div className="icon text-center h1 text-muted"><i className="fa-solid fa-list-check"></i></div>
                             <div className="text-center">
                                 <h4 className="title">International Standard
@@ -191,7 +191,7 @@ function AboutUs() {
                                 <p className="description">We always maintain international standard to our sink.</p>
                             </div>
                         </div>
-                        <div className="col-lg-4 col-md-6 icon-box">
+                        <div className="col-lg-4 col-md-6 icon-box feature-card-container">
                             <div className="icon text-center h1 text-muted"><i className="fa-solid fa-chart-simple"></i></div>
                             <div className="text-center">
                                 <h4 className="title">Long lasting support
@@ -202,7 +202,7 @@ function AboutUs() {
                                     problems.</p>
                             </div>
                         </div>
-                        <div className="col-lg-4 col-md-6 icon-box">
+                        <div className="col-lg-4 col-md-6 icon-box feature-card-container">
                             <div className="icon text-center h1 text-muted"><i className="fa-solid fa-binoculars"></i></div>
                             <div className="text-center">
                                 <h4 className="title">International market
@@ -213,7 +213,7 @@ function AboutUs() {
                                 </p>
                             </div>
                         </div>
-                        <div className="col-lg-4 col-md-6 icon-box">
+                        <div className="col-lg-4 col-md-6 icon-box feature-card-container">
                             <div className="icon text-center h1 text-muted"><i className="fa-solid fa-lightbulb"></i></div>
                             <div className="text-center">
                                 <h4 className="title">Licensed &amp; Insured
@@ -223,7 +223,7 @@ function AboutUs() {
                                 <p className="description">We have licensed of Our brand and trademark as well.</p>
                             </div>
                         </div>
-                        <div className="col-lg-4 col-md-6 icon-box">
+                        <div className="col-lg-4 col-md-6 icon-box feature-card-container">
                             <div className="icon text-center h1 text-muted"><i className="fa-solid fa-calendar-week"></i></div>
                             <div className="text-center">
                                 <h4 className="title">We Deliver Exellence

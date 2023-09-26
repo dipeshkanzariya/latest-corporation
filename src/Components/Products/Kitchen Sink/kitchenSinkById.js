@@ -19,9 +19,6 @@ function KitchenSinkById() {
             .then((res) => {
                 setData(res);
                 setisLoading(false);
-
-
-
             });
     }, []);
 

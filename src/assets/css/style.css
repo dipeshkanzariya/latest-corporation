@@ -1621,18 +1621,15 @@ ul.top-ecommerce-icons li a.closeMenu {
 }
 
 .heading-border-2 {
-    width: 100px;
-    height: 100%;
+    width: 150px;
     display: inline-block;
     clear: both;
     position: absolute;
-    bottom: 5px;
-    left: 5%;
-    transform: translate(-50% , 0%);
+    bottom: -10px;
+    left: 0%;
     background-color: none;
-    border: 1px solid transparent;
-    border-bottom-color: #817f7f;
-    border-bottom-color: 
+    border: 2px solid transparent;
+    border-bottom-color: #817f7f; 
 }
 
 .brassbanner img{
@@ -1976,8 +1973,8 @@ ul.top-ecommerce-icons li a.closeMenu {
 }
 
 .brass-product-image-container{
-
-    background-color: yellow;
+    /* border: 7px solid grey; */
+    background-color: rgb(215, 211, 211);
     padding: 10px;
     /* position: relative; */
     width: 400px;
@@ -2558,7 +2555,7 @@ font-weight: 600;
 
 .blogs_main .block-caption blockquote p,
 .wa-news-letter input {
-    margin: 0
+    margin: 0px;
 }
 
 .blogs_main .wa-theme-design-block:hover figure img {
