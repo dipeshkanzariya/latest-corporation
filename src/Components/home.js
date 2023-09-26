@@ -1,5 +1,5 @@
 import "../main.css";
-import {Link} from 'react-router-dom';
+import { Link } from 'react-router-dom';
 function Home() {
     return (
         <>
@@ -15,55 +15,96 @@ function Home() {
             {/* <!--//==Preloader End==//--> */}
 
             {/* <!--//=======Main Slider=======//--> */}
-            <div class="wa_main_bn_wrap sliderd">
-        <div id="home1-main-slider" class="owl-carousel owl-theme">
-            <div class="item sliderimg">
-                <figure>
-                    <img src="/Images/all/wa-blog-detail3.jpg" class="hidden-xs hidden-sm " alt="" />
-                    <img src="/Images/all/wa-blog-detail3.jpg" class="hidden-lg hidden-md" alt="" />
-                    <figcaption>
-                        <div class="container">
-                            {/* <!-- <h2><span class="">Luxury Faucets Collections</span></h2>
+            {/* <div id="my-pics" class="carousel slide" data-ride="carousel" >
+
+
+                <ol class="carousel-indicators">
+                    <li data-target="#my-pics1" data-slide-to="0" class="active"></li>
+                    <li data-target="#my-pics2" data-slide-to="1"></li>
+                    <li data-target="#my-pics3" data-slide-to="2"></li>
+                </ol>
+
+
+                <div class="carousel-inner" role="listbox">
+
+
+                    <div class="item active" id="#my-pics1">
+                        <img src="/Images/all/wa-blog-detail3.jpg" alt="Sunset over beach" />
+                    </div>
+
+
+                    <div class="item" id="#my-pics2">
+                        <img src="/Images/all/wa-blog-detail2.jpg" alt="Rob Roy Glacier" />
+                    </div>
+
+
+                    <div class="item" id="#my-pics3">
+                        <img src="https://latestcorporation.com/assets/img/slide/c.jpg" alt="Longtail boats at Phi Phi" />
+                    </div>
+
+                </div>
+
+
+                <a class="left carousel-control" href="#my-pics" role="button" data-slide="prev">
+                    <span class="icon-prev" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="right carousel-control" href="#my-pics" role="button" data-slide="next">
+                    <span class="icon-next" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div> */}
+
+<div class="wa_main_bn_wrap sliderd">
+
+                <div id="home1-main-slider" class="owl-carousel owl-theme">
+
+                    <div class="item sliderimg">
+                        <figure>
+                            <img src="/Images/all/wa-blog-detail3.jpg" class="hidden-xs hidden-sm " alt="" />
+                            <img src="/Images/all/wa-blog-detail3.jpg" class="hidden-lg hidden-md" alt="" />
+                            <figcaption>
+                                <div class="container">
+                                    {/* <!-- <h2><span class="">Luxury Faucets Collections</span></h2>
                             <span class="">flat 60% off for first 30 Customer.</span> -->
 
                             <!-- <a href="collection-grid-sidebar.html" class="theme-button">Shop Now</a> --> */}
-                        </div>
-                    </figcaption>
-                </figure>
-            </div>
-            <div class="item sliderimg">
-                <figure>
-                    <img src="/Images/all/wa-blog-detail2.jpg" class="hidden-xs hidden-sm " alt="" />
-                    <img src="/Images/all/wa-blog-detail2.jpg" class="hidden-lg hidden-md" alt="" />
-                    <figcaption>
-                        <div class="container">
-                            {/* <!-- <h2><span>Luxury Faucets Collections</span></h2>
+                                </div>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="item sliderimg">
+                        <figure>
+                            <img src="/Images/all/wa-blog-detail2.jpg" class="hidden-xs hidden-sm " alt="" />
+                            <img src="/Images/all/wa-blog-detail2.jpg" class="hidden-lg hidden-md" alt="" />
+                            <figcaption>
+                                <div class="container">
+                                    {/* <!-- <h2><span>Luxury Faucets Collections</span></h2>
                             <span>flat 60% off for first 30 Customer.</span>
                             <p>Quis est tam dissimile homini. Quia dolori non voluptas.</p>
                             <a href="collection-grid-sidebar.html" class="theme-button">Shop Now</a> --> */}
-                        </div>
-                    </figcaption>
-                </figure>
-            </div>
-            <div class="item sliderimg">
-                <figure>
-                    <img src="https://latestcorporation.com/assets/img/slide/c.jpg" class="hidden-xs hidden-sm"
-                        alt="" />
-                    <img src="https://latestcorporation.com/assets/img/slide/c.jpg" class="hidden-lg hidden-md"
-                        alt="" />
-                    <figcaption>
-                        <div class="container">
-                            {/* <!-- <h2><span>Luxury Faucets Collections</span></h2>
+                                </div>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="item sliderimg">
+                        <figure>
+                            <img src="https://latestcorporation.com/assets/img/slide/c.jpg" class="hidden-xs hidden-sm"
+                                alt="" />
+                            <img src="https://latestcorporation.com/assets/img/slide/c.jpg" class="hidden-lg hidden-md"
+                                alt="" />
+                            <figcaption>
+                                <div class="container">
+                                    {/* <!-- <h2><span>Luxury Faucets Collections</span></h2>
                             <span>flat 60% off for first 30 Customer.</span>
                             <p>Quis est tam dissimile homini. Quia dolori non voluptas.</p>
                             <a href="collection-grid-sidebar.html" class="theme-button">Shop Now</a> --> */}
-                        </div>
-                    </figcaption>
-                </figure>
+                                </div>
+                            </figcaption>
+                        </figure>
+                    </div>
+                </div>
             </div>
-        </div>
-    </div>
-           
             {/* <!--//=======Main Slider End=======//--> */}
 
             {/* <!--//=============product Start============//--> */}
@@ -73,7 +114,7 @@ function Home() {
                         {/* <!--//==Section Heading Start==//--> */}
                         <div className="col-md-12">
                             <div className="centered-title">
-                                <h2>Special product <span className="heading-border"></span></h2>
+                                <h2>Our product <span className="heading-border"></span></h2>
                                 <div className="clear"></div>
                                 <em>dNam ac egestas est. Mauris et pulvinar risus, at tincidunt lorem. Maecenas<br />
                                     tristique sit amet odio sit amet aliquet.</em>
@@ -87,24 +128,24 @@ function Home() {
                             className="col-lg-3 col-lg-offset-0 col-md-3 col-md-offset-0 col-sm-4 col-sm-offset-0 col-xs-12 col-xs-offset-0 mix">
                             <div className="wa-products">
                                 <div className="wa-products-thumbnail wa-item">
-                                    <img src="https://uniqueadmin.latestcorporation.com/admin_latest_corporation/Images/prime.png" alt="" />
+                                    <img src="https://uniqueadmin.latestcorporation.com/admin_latest_corporation/Images/Crystel.png" alt="" />
                                     <div className="caption">
                                         <div className="caption-text">
                                             <ul className="wa-products-icon">
-                                                
+
                                                 <li><Link className="quickview-box-btn" title="Quick View"><i
                                                     className="fa fa-eye"></i></Link></li>
-                                               
+
                                             </ul>
                                             <div className="clear"></div>
                                         </div>
                                     </div>
                                 </div>
                                 <div className="wa-products-caption">
-                                    <h2><a href="product-detail.html">Product Title</a></h2>
+                                    <h2><a href="product-detail.html">Prime</a></h2>
                                     <div className="clear"></div>
-                                    
-                                  
+
+
                                 </div>
                             </div>
                         </div>
@@ -113,14 +154,14 @@ function Home() {
                             className="col-lg-3 col-lg-offset-0 col-md-3 col-md-offset-0 col-sm-4 col-sm-offset-0 col-xs-12 col-xs-offset-0 mix">
                             <div className="wa-products">
                                 <div className="wa-products-thumbnail wa-item">
-                                    <img src="https://uniqueadmin.latestcorporation.com/admin_latest_corporation/Images/prime.png" alt="" />
+                                    <img src="https://uniqueadmin.latestcorporation.com/admin_latest_corporation/Images/dovel.png" alt="" />
                                     <div className="caption">
                                         <div className="caption-text">
                                             <ul className="wa-products-icon">
-                                                
+
                                                 <li><Link className="quickview-box-btn" title="Quick View"><i
                                                     className="fa fa-eye"></i></Link></li>
-                                               
+
                                             </ul>
                                             <div className="clear"></div>
                                         </div>
@@ -129,8 +170,8 @@ function Home() {
                                 <div className="wa-products-caption">
                                     <h2><a href="product-detail.html">Product Title</a></h2>
                                     <div className="clear"></div>
-                                    
-                                  
+
+
                                 </div>
                             </div>
                         </div>
@@ -139,14 +180,14 @@ function Home() {
                             className="col-lg-3 col-lg-offset-0 col-md-3 col-md-offset-0 col-sm-4 col-sm-offset-0 col-xs-12 col-xs-offset-0 mix">
                             <div className="wa-products">
                                 <div className="wa-products-thumbnail wa-item">
-                                    <img src="https://uniqueadmin.latestcorporation.com/admin_latest_corporation/Images/prime.png" alt="" />
+                                    <img src="https://uniqueadmin.latestcorporation.com/admin_latest_corporation/Images/48x20.png" alt="" />
                                     <div className="caption">
                                         <div className="caption-text">
                                             <ul className="wa-products-icon">
-                                                
+
                                                 <li><Link className="quickview-box-btn" title="Quick View"><i
                                                     className="fa fa-eye"></i></Link></li>
-                                               
+
                                             </ul>
                                             <div className="clear"></div>
                                         </div>
@@ -155,8 +196,8 @@ function Home() {
                                 <div className="wa-products-caption">
                                     <h2><a href="product-detail.html">Product Title</a></h2>
                                     <div className="clear"></div>
-                                    
-                                  
+
+
                                 </div>
                             </div>
                         </div>
@@ -169,10 +210,10 @@ function Home() {
                                     <div className="caption">
                                         <div className="caption-text">
                                             <ul className="wa-products-icon">
-                                                
+
                                                 <li><Link className="quickview-box-btn" title="Quick View"><i
                                                     className="fa fa-eye"></i></Link></li>
-                                               
+
                                             </ul>
                                             <div className="clear"></div>
                                         </div>
@@ -181,8 +222,8 @@ function Home() {
                                 <div className="wa-products-caption">
                                     <h2><a href="product-detail.html">Product Title</a></h2>
                                     <div className="clear"></div>
-                                    
-                                  
+
+
                                 </div>
                             </div>
                         </div>
@@ -195,10 +236,10 @@ function Home() {
                                     <div className="caption">
                                         <div className="caption-text">
                                             <ul className="wa-products-icon">
-                                                
+
                                                 <li><Link className="quickview-box-btn" title="Quick View"><i
                                                     className="fa fa-eye"></i></Link></li>
-                                               
+
                                             </ul>
                                             <div className="clear"></div>
                                         </div>
@@ -207,8 +248,8 @@ function Home() {
                                 <div className="wa-products-caption">
                                     <h2><a href="product-detail.html">Product Title</a></h2>
                                     <div className="clear"></div>
-                                    
-                                  
+
+
                                 </div>
                             </div>
                         </div>
@@ -221,10 +262,10 @@ function Home() {
                                     <div className="caption">
                                         <div className="caption-text">
                                             <ul className="wa-products-icon">
-                                                
+
                                                 <li><Link className="quickview-box-btn" title="Quick View"><i
                                                     className="fa fa-eye"></i></Link></li>
-                                               
+
                                             </ul>
                                             <div className="clear"></div>
                                         </div>
@@ -233,8 +274,8 @@ function Home() {
                                 <div className="wa-products-caption">
                                     <h2><a href="product-detail.html">Product Title</a></h2>
                                     <div className="clear"></div>
-                                    
-                                  
+
+
                                 </div>
                             </div>
                         </div>
@@ -247,10 +288,10 @@ function Home() {
                                     <div className="caption">
                                         <div className="caption-text">
                                             <ul className="wa-products-icon">
-                                                
+
                                                 <li><Link className="quickview-box-btn" title="Quick View"><i
                                                     className="fa fa-eye"></i></Link></li>
-                                               
+
                                             </ul>
                                             <div className="clear"></div>
                                         </div>
@@ -259,8 +300,8 @@ function Home() {
                                 <div className="wa-products-caption">
                                     <h2><a href="product-detail.html">Product Title</a></h2>
                                     <div className="clear"></div>
-                                    
-                                  
+
+
                                 </div>
                             </div>
                         </div>
@@ -273,10 +314,10 @@ function Home() {
                                     <div className="caption">
                                         <div className="caption-text">
                                             <ul className="wa-products-icon">
-                                                
+
                                                 <li><Link className="quickview-box-btn" title="Quick View"><i
                                                     className="fa fa-eye"></i></Link></li>
-                                               
+
                                             </ul>
                                             <div className="clear"></div>
                                         </div>
@@ -285,8 +326,8 @@ function Home() {
                                 <div className="wa-products-caption">
                                     <h2><a href="product-detail.html">Product Title</a></h2>
                                     <div className="clear"></div>
-                                    
-                                  
+
+
                                 </div>
                             </div>
                         </div>
@@ -334,7 +375,7 @@ function Home() {
                                                     <div className="wa-banners-caption text-right">
                                                         <h2>Brass Collection</h2>
                                                         <div className="clear"></div>
-                                                        
+
                                                         <a href="brass.html" className="theme-button marT10">view product</a>
                                                     </div>
                                                 </div>
@@ -359,7 +400,7 @@ function Home() {
 
                                 {/* <!--//==Blog Content==//--> */}
                                 <div className="block-caption padT20">
-                                    <h1>Why choose Latest Corporation ?</h1>
+                                    <h1 className="">Why choose Latest Corporation ?</h1>
                                     {/* <!--//==Meta Detail==//--> */}
                                     <p className="abouPara-text-size">Latest Corporation Kitchen And Brass Products has been
                                         manufacturing and supplying
@@ -743,149 +784,149 @@ function Home() {
             {/* <!--//=============Best Seller Section End============//--> */}
 
             {/* <!--//=========Partners Start=========//--> */}
-    <section className="services text-center padB50 padT10 ">
-        <div className="container">
-            <div className="row">
-                <div className="col-md-12 col-sm-12">
+            <section className="services text-center padB50 padT10 ">
+                <div className="container">
                     <div className="row">
-                        {/* <!--//==Services Item Start==//--> */}
-                        <div className="col-md-3 col-sm-3 ">
-                            <div className="wa-box-style2">
-                                <div className="icon padT10">
-                                    <i className="fa-regular fa-face-smile" aria-hidden="true"></i>
+                        <div className="col-md-12 col-sm-12">
+                            <div className="row">
+                                {/* <!--//==Services Item Start==//--> */}
+                                <div className="col-md-3 col-sm-3 ">
+                                    <div className="wa-box-style2">
+                                        <div className="icon padT10">
+                                            <i className="fa-regular fa-face-smile" aria-hidden="true"></i>
+                                        </div>
+                                        <div className="text">
+                                            <h4>500 +</h4>
+                                            <h4>Happy client</h4>
+                                        </div>
+                                    </div>
                                 </div>
-                                <div className="text">
-                                    <h4>500 +</h4>
-                                    <h4>Happy client</h4>
+                                {/* <!--//==Services Item End==//--> */}
+                                {/* <!--//==Services Item Start==//--> */}
+                                <div className="col-md-3 col-sm-3">
+                                    <div className="wa-box-style2">
+                                        <div className="icon padT10">
+                                            <i className="fa-solid fa-list" aria-hidden="true"></i>
+                                        </div>
+                                        <div className="text">
+                                            <h4>8 +</h4>
+                                            <h4>Product</h4>
+                                        </div>
+                                    </div>
                                 </div>
+                                {/* <!--//==Services Item End==//--> */}
+                                {/* <!--//==Services Item Start==//--> */}
+                                <div className="col-md-3 col-sm-3">
+                                    <div className="wa-box-style2">
+                                        <div className="icon padT10">
+                                            <i className="fa-solid fa-headphones" aria-hidden="true"></i>
+                                        </div>
+                                        <div className="text">
+                                            <h4>24 / 7</h4>
+                                            <h4>Hours of support</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                                {/* <!--//==Services Item End==//--> */}
+                                {/* <!--//==Services Item Start==//--> */}
+                                <div className="col-md-3 col-sm-3">
+                                    <div className="wa-box-style2">
+                                        <div className="icon padT10">
+                                            <i className="fa-solid fa-users" aria-hidden="true"></i>
+                                        </div>
+                                        <div className="text">
+                                            <h4>15 +</h4>
+                                            <h4>Smart Workers</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                                {/* <!--//==Services Item End==//--> */}
                             </div>
                         </div>
-                        {/* <!--//==Services Item End==//--> */}
-                        {/* <!--//==Services Item Start==//--> */}
-                        <div className="col-md-3 col-sm-3">
-                            <div className="wa-box-style2">
-                                <div className="icon padT10">
-                                    <i className="fa-solid fa-list" aria-hidden="true"></i>
-                                </div>
-                                <div className="text">
-                                    <h4>8 +</h4>
-                                    <h4>Product</h4>
-                                </div>
-                            </div>
-                        </div>
-                        {/* <!--//==Services Item End==//--> */}
-                        {/* <!--//==Services Item Start==//--> */}
-                        <div className="col-md-3 col-sm-3">
-                            <div className="wa-box-style2">
-                                <div className="icon padT10">
-                                    <i className="fa-solid fa-headphones" aria-hidden="true"></i>
-                                </div>
-                                <div className="text">
-                                    <h4>24 / 7</h4>
-                                    <h4>Hours of support</h4>
-                                </div>
-                            </div>
-                        </div>
-                        {/* <!--//==Services Item End==//--> */}
-                        {/* <!--//==Services Item Start==//--> */}
-                        <div className="col-md-3 col-sm-3">
-                            <div className="wa-box-style2">
-                                <div className="icon padT10">
-                                    <i className="fa-solid fa-users" aria-hidden="true"></i>
-                                </div>
-                                <div className="text">
-                                    <h4>15 +</h4>
-                                    <h4>Smart Workers</h4>
-                                </div>
-                            </div>
-                        </div>
-                        {/* <!--//==Services Item End==//--> */}
                     </div>
                 </div>
-            </div>
-        </div>
-    </section>
-    
-    {/* <!--//== Service Section Start==//--> */}
-    <section id="services" className="services animate__animated animate__fadeInDown padT100" style={{backgroundColor: "white"}}>
-        <div className="centered-title">
-            <h2>Services <span className="heading-border"></span></h2>
-            <div className="clear"></div>
-        </div>
-        
-        <div className="container">
-            <div className="row">
-                <div className="col-lg-4 col-md-6 icon-box">
-                    <div className="icon text-center h1 text-muted"><i className="fa-solid fa-briefcase"></i></div>
-                    <div className="text-center">
-                        <h4 className="title">Best Quality Products
-                        </h4>
-                    </div>
-                    <div className="text-center">
-                        <p className="description">Latest Corporation always provides best quality kitchen sink to our valuable
-                            customer.</p>
-                    </div>
-                </div>
-                <div className="col-lg-4 col-md-6 icon-box">
-                    <div className="icon text-center h1 text-muted"><i className="fa-solid fa-list-check"></i></div>
-                    <div className="text-center">
-                        <h4 className="title">International Standard
-                        </h4>
-                    </div>
-                    <div className="text-center">
-                        <p className="description">We always maintain international standard to our sink.</p>
-                    </div>
-                </div>
-                <div className="col-lg-4 col-md-6 icon-box">
-                    <div className="icon text-center h1 text-muted"><i className="fa-solid fa-chart-simple"></i></div>
-                    <div className="text-center">
-                        <h4 className="title">Long lasting support
-                        </h4>
-                    </div>
-                    <div className="text-center">
-                        <p className="description">We are having 24x7 Long lasting support that help you always in your
-                            problems.</p>
-                    </div>
-                </div>
-                <div className="col-lg-4 col-md-6 icon-box">
-                    <div className="icon text-center h1 text-muted"><i className="fa-solid fa-binoculars"></i></div>
-                    <div className="text-center">
-                        <h4 className="title">International market
-                        </h4>
-                    </div>
-                    <div className="text-center">
-                        <p className="description"> We launched our product in the domestic as well international market </p>
-                    </div>
-                </div>
-                <div className="col-lg-4 col-md-6 icon-box">
-                    <div className="icon text-center h1 text-muted"><i className="fa-solid fa-lightbulb"></i></div>
-                    <div className="text-center">
-                        <h4 className="title">Licensed &amp; Insured
-                        </h4>
-                    </div>
-                    <div className="text-center">
-                        <p className="description">We have licensed of Our brand and trademark as well.</p>
-                    </div>
-                </div>
-                <div className="col-lg-4 col-md-6 icon-box">
-                    <div className="icon text-center h1 text-muted"><i className="fa-solid fa-calendar-week"></i></div>
-                    <div className="text-center">
-                        <h4 className="title">We Deliver Exellence
-                        </h4>
-                    </div>
-                    <div className="text-center">
-                    <p className="description">We follow strict industry norms and promise that every product will give you
-                        a satisfactory experience. </p>
-                </div>
-            </div>
-        </div>
-        </div>
-    </section>
-    {/* <!--//=========Service Section End=========//--> */}
+            </section>
 
-    {/* <!--//=========Home Blogs Start=========//--> */}
+            {/* <!--//== Service Section Start==//--> */}
+            <section id="services" className="services animate__animated animate__fadeInDown padT100" style={{ backgroundColor: "white" }}>
+                <div className="centered-title">
+                    <h2>Services <span className="heading-border"></span></h2>
+                    <div className="clear"></div>
+                </div>
 
-    <section className="blogs_main padTB100 grey-bg">
+                <div className="container marB80">
+                    <div className="row">
+                        <div className="col-lg-4 col-md-6 icon-box ">
+                            <div className="icon text-center h1 text-muted"><i className="fa-solid fa-briefcase"></i></div>
+                            <div className="text-center">
+                                <h4 className="title">Best Quality Products
+                                </h4>
+                            </div>
+                            <div className="text-center">
+                                <p className="description">Latest Corporation always provides best quality kitchen sink to our valuable
+                                    customer.</p>
+                            </div>
+                        </div>
+                        <div className="col-lg-4 col-md-6 icon-box">
+                            <div className="icon text-center h1 text-muted"><i className="fa-solid fa-list-check"></i></div>
+                            <div className="text-center">
+                                <h4 className="title">International Standard
+                                </h4>
+                            </div>
+                            <div className="text-center">
+                                <p className="description">We always maintain international standard to our sink.</p>
+                            </div>
+                        </div>
+                        <div className="col-lg-4 col-md-6 icon-box">
+                            <div className="icon text-center h1 text-muted"><i className="fa-solid fa-chart-simple"></i></div>
+                            <div className="text-center">
+                                <h4 className="title">Long lasting support
+                                </h4>
+                            </div>
+                            <div className="text-center">
+                                <p className="description">We are having 24x7 Long lasting support that help you always in your
+                                    problems.</p>
+                            </div>
+                        </div>
+                        <div className="col-lg-4 col-md-6 icon-box">
+                            <div className="icon text-center h1 text-muted"><i className="fa-solid fa-binoculars"></i></div>
+                            <div className="text-center">
+                                <h4 className="title">International market
+                                </h4>
+                            </div>
+                            <div className="text-center">
+                                <p className="description"> We launched our product in the domestic as well international market </p>
+                            </div>
+                        </div>
+                        <div className="col-lg-4 col-md-6 icon-box">
+                            <div className="icon text-center h1 text-muted"><i className="fa-solid fa-lightbulb"></i></div>
+                            <div className="text-center">
+                                <h4 className="title">Licensed &amp; Insured
+                                </h4>
+                            </div>
+                            <div className="text-center">
+                                <p className="description">We have licensed of Our brand and trademark as well.</p>
+                            </div>
+                        </div>
+                        <div className="col-lg-4 col-md-6 icon-box ">
+                            <div className="icon text-center h1 text-muted"><i className="fa-solid fa-calendar-week"></i></div>
+                            <div className="text-center">
+                                <h4 className="title">We Deliver Exellence
+                                </h4>
+                            </div>
+                            <div className="text-center">
+                                <p className="description">We follow strict industry norms and promise that every product will give you
+                                    a satisfactory experience. </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            {/* <!--//=========Service Section End=========//--> */}
+
+            {/* <!--//=========Home Blogs Start=========//--> */}
+
+            <section className="blogs_main padTB100 grey-bg">
                 <div className="container">
                     <div className="row">
                         {/* <!--//==Section Heading Start==//--> */}
@@ -905,20 +946,20 @@ function Home() {
                         <div className="col-md-12">
                             <div className="row">
                                 <div className="owl-carousel owl-theme carousel-style-1 " id="home-blog-carousel"
-                                    style={{opacity: 1,display: "block"}}>
+                                    style={{ opacity: 1, display: "block" }}>
                                     <div className="owl-wrapper-outer">
                                         <div className="owl-wrapper"
-                                            style={{width: 1938, left: 0, display: "block", transition: "all 0 ease 0", transform: "translate3d(0, 0, 0)"}}
-                                            
+                                            style={{ width: 1938, left: 0, display: "block", transition: "all 0 ease 0", transform: "translate3d(0, 0, 0)" }}
+
                                         >
-                                            <div className="owl-item" style={{width: 323}}>
+                                            <div className="owl-item" style={{ width: 323 }}>
                                                 <div className="home-blog-item">
                                                     <div className="col-md-12">
                                                         <div className="wa-theme-design-block">
                                                             <figure className="dark-theme">
                                                                 <img src="/Images/all/business-agreement-handshake-hand-gesture_53876-130006.jpg"
-                                                                    alt="Thumbnail"/>
-                                                                    <span className="hover-style"></span>
+                                                                    alt="Thumbnail" />
+                                                                <span className="hover-style"></span>
                                                             </figure>
                                                             <div className="block-caption">
                                                                 <h4>Business deals</h4>
@@ -930,13 +971,13 @@ function Home() {
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div className="owl-item" style={{width: 323}}>
+                                            <div className="owl-item" style={{ width: 323 }}>
                                                 <div className="home-blog-item">
                                                     <div className="col-md-12">
                                                         <div className="wa-theme-design-block">
                                                             <figure className="dark-theme">
-                                                                <img src="/Images/all/discount.jpg" alt="Thumbnail"/>
-                                                                    <span className="hover-style"></span>
+                                                                <img src="/Images/all/discount.jpg" alt="Thumbnail" />
+                                                                <span className="hover-style"></span>
                                                             </figure>
                                                             <div className="block-caption">
                                                                 <h4>Discounts</h4>
@@ -952,13 +993,13 @@ function Home() {
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div className="owl-item" style={{width: 323}}>
+                                            <div className="owl-item" style={{ width: 323 }}>
                                                 <div className="home-blog-item">
                                                     <div className="col-md-12">
                                                         <div className="wa-theme-design-block">
                                                             <figure className="dark-theme">
-                                                                <img src="/Images/all/professionals.jpg" alt="Thumbnail"/>
-                                                                    <span className="hover-style"></span>
+                                                                <img src="/Images/all/professionals.jpg" alt="Thumbnail" />
+                                                                <span className="hover-style"></span>
                                                             </figure>
                                                             <div className="block-caption">
                                                                 <h4>Professionals
@@ -980,7 +1021,7 @@ function Home() {
 
 
 
-                                    <div className="owl-controls clickable" style={{display: "none"}}>
+                                    <div className="owl-controls clickable" style={{ display: "none" }}>
                                         <div className="owl-buttons">
                                             <div className="owl-prev">prev</div>
                                             <div className="owl-next">next</div>
@@ -992,7 +1033,7 @@ function Home() {
                     </div>
                 </div>
             </section>
-    {/* <!--//=========Home Blogs End=========//--> */}
+            {/* <!--//=========Home Blogs End=========//--> */}
 
         </>
     )

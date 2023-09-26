@@ -19,14 +19,13 @@ function Header() {
                                 <div className="navbar-header">
                                     {/* <!-- Button For Responsive toggle --> */}
                                     <button type="button" className="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                                        {/* <!-- <span className="sr-only">Toggle navigation</span> 
+                                        <span className="sr-only">Toggle navigation</span> 
                                     <span className="icon-bar"></span> 
                                     <span className="icon-bar"></span> 
-                                    <span className="icon-bar"></span>-->*/}</button> 
-                                    {/* <!-- Logo -->
-                                    <!-- <a className="navbar-brand hidden-lg hidden-md hidden-sm" href="index.html">
+                                    <span className="icon-bar"></span></button> 
+                                   {/* <a className="navbar-brand hidden-lg hidden-md hidden-sm" href="index.html">
                                     <img className="site_logo" alt="Site Logo"  src="assets/img/logo-2.png" />
-                                    </a> --> */}
+                                    </a>  */}
                                 </div>
                                 {/* <!-- Navbar Collapse --> */}
                                 <div className="navbar-collapse collapse">
@@ -36,19 +35,7 @@ function Header() {
                                         <li>
                                             <Link to="aboutUs">About </Link>
                                         </li>
-                                        {/* <li>
-                                            <!-- <div className="dropdown">
-                                                <button className="dropbtn">Dropdown 
-                                                  <i className="fa fa-caret-down"></i>
-                                                </button>
-                                                <div className="dropdown-content">
-                                                  <Link="#">Link 1</Link=>
-                                                  <Link="#">Link 2</Link=>
-                                                  <Link="#">Link 3</Link=>
-                                                </div>
-                                              </div>  -->
-                                            <Link="kitchenSink.html">Kitchen Sink</Link=>
-                                        </li> */}
+                                       
                                         <li>
                                             <Link to="/products/brass">Brass</Link>
                                         </li>

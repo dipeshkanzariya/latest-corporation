@@ -21,7 +21,10 @@ p {
     padding: 10px;
     border-radius: 5px;
 }
+.why-chose-img{
 
+    text-align: center
+}
 @media only screen and (max-width: 550px){
 
     .feature-card-container{
@@ -36,10 +39,7 @@ p {
 
     }
 
-    .why-chose-img{
-
-        text-align: center
-    }
+    
 }
 
 body,
@@ -1967,6 +1967,7 @@ ul.top-ecommerce-icons li a.closeMenu {
     text-align: center;
     float: left;
     width: 100%;
+    min-height: 260px;
     border: 1px solid #eee;
     margin-bottom: 30px;
     padding: 0 0 20px;
@@ -2025,9 +2026,20 @@ ul.top-ecommerce-icons li a.closeMenu {
 .wa-products-thumbnail {
     display: block;
     width: 100%;
-    float: left;
-    overflow: hidden;
-    position: relative
+    min-height: 169px;
+    height: 200px;
+     float: left;
+    overflow: hidden; 
+    position: relative;
+    background-image: linear-gradient(to bottom,#efefef,rgba(0,0,0,0.2));
+    
+
+}
+.wa-products-thumbnail img{
+    width: 100%;
+    height: 100%;
+   
+    object-fit: contain;
 }
 
 .wa-products-caption,
@@ -2478,12 +2490,19 @@ ul.top-ecommerce-icons li a.closeMenu {
 .blogs_main .block-caption {
     position: relative;
     float: left;
-    padding: 20px 30px 30px
+    padding: 20px 30px 30px;
+    
 }
-
+.block-caption h1{
+font-weight: 600;
+}
 .blogs_details.blogs_main .block-caption,
 .blogs_main .block-detail .block-caption {
     padding: 20px 0 30px
+}
+.service-card{
+    margin-bottom: 10px;
+    background-color: yellowgreen;
 }
 
 .blogs_main .block-caption h3 {
