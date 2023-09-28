@@ -262,8 +262,7 @@ function AboutUs() {
                                     style={{opacity: 1,display: "block"}}>
                                     <div className="owl-wrapper-outer">
                                         <div className="owl-wrapper"
-                                            style={{width: 1938, left: 0, display: "block", transition: "all 0 ease 0", transform: "translate3d(0, 0, 0)"}}
-                                            
+                                            style={{width: 1938, left: 0, display: "block", transition: "all 0 ease 0", transform: "translate3d(0, 0, 0)"}}  
                                         >
                                             <div className="owl-item" style={{width: 323}}>
                                                 <div className="home-blog-item">

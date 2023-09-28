@@ -3,6 +3,8 @@ import { Link } from 'react-router-dom';
 function Home() {
     return (
         <>
+
+
             {/* <!--//==Preloader Start==//--> */}
             {/* <div className="preloader">
         <div className="cssload-container">
@@ -13,102 +15,77 @@ function Home() {
         </div>
     </div> */}
             {/* <!--//==Preloader End==//--> */}
-
-            {/* <!--//=======Main Slider=======//--> */}
-            {/* <div id="my-pics" class="carousel slide" data-ride="carousel" >
-
-
-                <ol class="carousel-indicators">
-                    <li data-target="#my-pics1" data-slide-to="0" class="active"></li>
-                    <li data-target="#my-pics2" data-slide-to="1"></li>
-                    <li data-target="#my-pics3" data-slide-to="2"></li>
-                </ol>
-
-
-                <div class="carousel-inner" role="listbox">
-
-
-                    <div class="item active" id="#my-pics1">
-                        <img src="/Images/all/wa-blog-detail3.jpg" alt="Sunset over beach" />
-                    </div>
-
-
-                    <div class="item" id="#my-pics2">
-                        <img src="/Images/all/wa-blog-detail2.jpg" alt="Rob Roy Glacier" />
-                    </div>
-
-
-                    <div class="item" id="#my-pics3">
-                        <img src="https://latestcorporation.com/assets/img/slide/c.jpg" alt="Longtail boats at Phi Phi" />
-                    </div>
-
+            <section>
+                <div className="contact-line">
+                   jkgfdghjk
                 </div>
+            </section>
 
-
-                <a class="left carousel-control" href="#my-pics" role="button" data-slide="prev">
-                    <span class="icon-prev" aria-hidden="true"></span>
-                    <span class="sr-only">Previous</span>
-                </a>
-                <a class="right carousel-control" href="#my-pics" role="button" data-slide="next">
-                    <span class="icon-next" aria-hidden="true"></span>
-                    <span class="sr-only">Next</span>
-                </a>
-            </div> */}
-
-<div class="wa_main_bn_wrap sliderd">
-
-                <div id="home1-main-slider" class="owl-carousel owl-theme">
-
-                    <div class="item sliderimg">
-                        <figure>
-                            <img src="/Images/all/wa-blog-detail3.jpg" class="hidden-xs hidden-sm " alt="" />
-                            <img src="/Images/all/wa-blog-detail3.jpg" class="hidden-lg hidden-md" alt="" />
-                            <figcaption>
-                                <div class="container">
-                                    {/* <!-- <h2><span class="">Luxury Faucets Collections</span></h2>
-                            <span class="">flat 60% off for first 30 Customer.</span> -->
-
-                            <!-- <a href="collection-grid-sidebar.html" class="theme-button">Shop Now</a> --> */}
+            <section className="services text-center padB40 padT10 ">
+                <div className="container">
+                    <div className="row">
+                        <div className="col-md-12 col-sm-12">
+                            <div className="row">
+                                {/* <!--//==Services Item Start==//--> */}
+                                <div className="col-md-3 col-sm-3 ">
+                                    <div className="wa-box-style2">
+                                        <div className="icon padT10">
+                                            <i className="fa-regular fa-face-smile" aria-hidden="true"></i>
+                                        </div>
+                                        <div className="text">
+                                            <h4>500 +</h4>
+                                            <h4>Happy client</h4>
+                                        </div>
+                                    </div>
                                 </div>
-                            </figcaption>
-                        </figure>
-                    </div>
-                    <div class="item sliderimg">
-                        <figure>
-                            <img src="/Images/all/wa-blog-detail2.jpg" class="hidden-xs hidden-sm " alt="" />
-                            <img src="/Images/all/wa-blog-detail2.jpg" class="hidden-lg hidden-md" alt="" />
-                            <figcaption>
-                                <div class="container">
-                                    {/* <!-- <h2><span>Luxury Faucets Collections</span></h2>
-                            <span>flat 60% off for first 30 Customer.</span>
-                            <p>Quis est tam dissimile homini. Quia dolori non voluptas.</p>
-                            <a href="collection-grid-sidebar.html" class="theme-button">Shop Now</a> --> */}
+                                {/* <!--//==Services Item End==//--> */}
+                                {/* <!--//==Services Item Start==//--> */}
+                                <div className="col-md-3 col-sm-3">
+                                    <div className="wa-box-style2">
+                                        <div className="icon padT10">
+                                            <i className="fa-solid fa-list" aria-hidden="true"></i>
+                                        </div>
+                                        <div className="text">
+                                            <h4>8 +</h4>
+                                            <h4>Product</h4>
+                                        </div>
+                                    </div>
                                 </div>
-                            </figcaption>
-                        </figure>
-                    </div>
-                    <div class="item sliderimg">
-                        <figure>
-                            <img src="https://latestcorporation.com/assets/img/slide/c.jpg" class="hidden-xs hidden-sm"
-                                alt="" />
-                            <img src="https://latestcorporation.com/assets/img/slide/c.jpg" class="hidden-lg hidden-md"
-                                alt="" />
-                            <figcaption>
-                                <div class="container">
-                                    {/* <!-- <h2><span>Luxury Faucets Collections</span></h2>
-                            <span>flat 60% off for first 30 Customer.</span>
-                            <p>Quis est tam dissimile homini. Quia dolori non voluptas.</p>
-                            <a href="collection-grid-sidebar.html" class="theme-button">Shop Now</a> --> */}
+                                {/* <!--//==Services Item End==//--> */}
+                                {/* <!--//==Services Item Start==//--> */}
+                                <div className="col-md-3 col-sm-3">
+                                    <div className="wa-box-style2">
+                                        <div className="icon padT10">
+                                            <i className="fa-solid fa-headphones" aria-hidden="true"></i>
+                                        </div>
+                                        <div className="text">
+                                            <h4>24 / 7</h4>
+                                            <h4>Hours of support</h4>
+                                        </div>
+                                    </div>
                                 </div>
-                            </figcaption>
-                        </figure>
+                                {/* <!--//==Services Item End==//--> */}
+                                {/* <!--//==Services Item Start==//--> */}
+                                <div className="col-md-3 col-sm-3">
+                                    <div className="wa-box-style2">
+                                        <div className="icon padT10">
+                                            <i className="fa-solid fa-users" aria-hidden="true"></i>
+                                        </div>
+                                        <div className="text">
+                                            <h4>15 +</h4>
+                                            <h4>Smart Workers</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                                {/* <!--//==Services Item End==//--> */}
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </div>
-            {/* <!--//=======Main Slider End=======//--> */}
+            </section>
 
             {/* <!--//=============product Start============//--> */}
-            <div className="wa-products-main padTB100">
+            <div className="wa-products-main padT40 padB100">
                 <div className="container">
                     <div className="row">
                         {/* <!--//==Section Heading Start==//--> */}
@@ -784,90 +761,30 @@ function Home() {
             {/* <!--//=============Best Seller Section End============//--> */}
 
             {/* <!--//=========Partners Start=========//--> */}
-            <section className="services text-center padB50 padT10 ">
-                <div className="container">
-                    <div className="row">
-                        <div className="col-md-12 col-sm-12">
-                            <div className="row">
-                                {/* <!--//==Services Item Start==//--> */}
-                                <div className="col-md-3 col-sm-3 ">
-                                    <div className="wa-box-style2">
-                                        <div className="icon padT10">
-                                            <i className="fa-regular fa-face-smile" aria-hidden="true"></i>
-                                        </div>
-                                        <div className="text">
-                                            <h4>500 +</h4>
-                                            <h4>Happy client</h4>
-                                        </div>
-                                    </div>
-                                </div>
-                                {/* <!--//==Services Item End==//--> */}
-                                {/* <!--//==Services Item Start==//--> */}
-                                <div className="col-md-3 col-sm-3">
-                                    <div className="wa-box-style2">
-                                        <div className="icon padT10">
-                                            <i className="fa-solid fa-list" aria-hidden="true"></i>
-                                        </div>
-                                        <div className="text">
-                                            <h4>8 +</h4>
-                                            <h4>Product</h4>
-                                        </div>
-                                    </div>
-                                </div>
-                                {/* <!--//==Services Item End==//--> */}
-                                {/* <!--//==Services Item Start==//--> */}
-                                <div className="col-md-3 col-sm-3">
-                                    <div className="wa-box-style2">
-                                        <div className="icon padT10">
-                                            <i className="fa-solid fa-headphones" aria-hidden="true"></i>
-                                        </div>
-                                        <div className="text">
-                                            <h4>24 / 7</h4>
-                                            <h4>Hours of support</h4>
-                                        </div>
-                                    </div>
-                                </div>
-                                {/* <!--//==Services Item End==//--> */}
-                                {/* <!--//==Services Item Start==//--> */}
-                                <div className="col-md-3 col-sm-3">
-                                    <div className="wa-box-style2">
-                                        <div className="icon padT10">
-                                            <i className="fa-solid fa-users" aria-hidden="true"></i>
-                                        </div>
-                                        <div className="text">
-                                            <h4>15 +</h4>
-                                            <h4>Smart Workers</h4>
-                                        </div>
-                                    </div>
-                                </div>
-                                {/* <!--//==Services Item End==//--> */}
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
+
 
             {/* <!--//== Service Section Start==//--> */}
-            <section id="services" className="services animate__animated animate__fadeInDown padT100" style={{ backgroundColor: "white" }}>
+            <section id="services" className="services animate__animated animate__fadeInDown" style={{ backgroundColor: "white" }}>
                 <div className="centered-title">
                     <h2>Services <span className="heading-border"></span></h2>
                     <div className="clear"></div>
                 </div>
 
-                <div className="container marB80">
+                <div className="container">
                     <div className="row">
-                        <div className="col-lg-4 col-md-6 icon-box ">
+                        <div className="col-lg-4 col-md-6 icon-box feature-card-container">
                             <div className="icon text-center h1 text-muted"><i className="fa-solid fa-briefcase"></i></div>
                             <div className="text-center">
                                 <h4 className="title">Best Quality Products
                                 </h4>
                             </div>
                             <div className="text-center">
-                                <p className="description">Latest Corporation always provides best quality kitchen sink to our valuable
+                                <p className="description">Latest Corporation always provides best quality kitchen sink to our
+                                    valuable
                                     customer.</p>
                             </div>
                         </div>
-                        <div className="col-lg-4 col-md-6 icon-box">
+                        <div className="col-lg-4 col-md-6 icon-box feature-card-container">
                             <div className="icon text-center h1 text-muted"><i className="fa-solid fa-list-check"></i></div>
                             <div className="text-center">
                                 <h4 className="title">International Standard
@@ -877,7 +794,7 @@ function Home() {
                                 <p className="description">We always maintain international standard to our sink.</p>
                             </div>
                         </div>
-                        <div className="col-lg-4 col-md-6 icon-box">
+                        <div className="col-lg-4 col-md-6 icon-box feature-card-container">
                             <div className="icon text-center h1 text-muted"><i className="fa-solid fa-chart-simple"></i></div>
                             <div className="text-center">
                                 <h4 className="title">Long lasting support
@@ -888,17 +805,18 @@ function Home() {
                                     problems.</p>
                             </div>
                         </div>
-                        <div className="col-lg-4 col-md-6 icon-box">
+                        <div className="col-lg-4 col-md-6 icon-box feature-card-container">
                             <div className="icon text-center h1 text-muted"><i className="fa-solid fa-binoculars"></i></div>
                             <div className="text-center">
                                 <h4 className="title">International market
                                 </h4>
                             </div>
                             <div className="text-center">
-                                <p className="description"> We launched our product in the domestic as well international market </p>
+                                <p className="description"> We launched our product in the domestic as well international market
+                                </p>
                             </div>
                         </div>
-                        <div className="col-lg-4 col-md-6 icon-box">
+                        <div className="col-lg-4 col-md-6 icon-box feature-card-container">
                             <div className="icon text-center h1 text-muted"><i className="fa-solid fa-lightbulb"></i></div>
                             <div className="text-center">
                                 <h4 className="title">Licensed &amp; Insured
@@ -908,14 +826,15 @@ function Home() {
                                 <p className="description">We have licensed of Our brand and trademark as well.</p>
                             </div>
                         </div>
-                        <div className="col-lg-4 col-md-6 icon-box ">
+                        <div className="col-lg-4 col-md-6 icon-box feature-card-container">
                             <div className="icon text-center h1 text-muted"><i className="fa-solid fa-calendar-week"></i></div>
                             <div className="text-center">
                                 <h4 className="title">We Deliver Exellence
                                 </h4>
                             </div>
                             <div className="text-center">
-                                <p className="description">We follow strict industry norms and promise that every product will give you
+                                <p className="description">We follow strict industry norms and promise that every product will give
+                                    you
                                     a satisfactory experience. </p>
                             </div>
                         </div>

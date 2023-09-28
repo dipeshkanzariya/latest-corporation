@@ -14,6 +14,9 @@
 /*Defaults CSS SETTINGS */	
 @import url("assets/css/style.css");
 
+/* Carousel Css */
+@import url("assets/css/carousel.css");
+
 /*Template Media Query CSS */
 @import url("assets/css/responsive.css");
 

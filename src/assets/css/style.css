@@ -6,6 +6,12 @@ p {
     font-size: 16px
 }
 
+.contact-line{
+    height: 5%;
+    width: 100%;
+    background-color: #20c90a;
+}
+
 .abouPara-text-size{
     font-size: 18px;
 }
@@ -1790,7 +1796,7 @@ ul.top-ecommerce-icons li a.closeMenu {
 .wa-collection-thumbnail {
     position: relative;
     width: 100%;
-    float: left
+    float: left;
 }
 
 .our-collection-main .wa-collection .caption ul.rating a {
@@ -1824,7 +1830,7 @@ ul.top-ecommerce-icons li a.closeMenu {
 
 .wa-collection-thumbnail {
     display: block;
-    overflow: hidden
+    overflow: hidden;
 }
 
 .wa-collection .mask-top-upper {
@@ -1966,6 +1972,7 @@ ul.top-ecommerce-icons li a.closeMenu {
     width: 100%;
     min-height: 260px;
     border: 1px solid #eee;
+    border-radius: 100px;
     margin-bottom: 30px;
     padding: 0 0 20px;
     position: relative;
@@ -1973,19 +1980,27 @@ ul.top-ecommerce-icons li a.closeMenu {
 }
 
 .brass-product-image-container{
-    /* border: 7px solid grey; */
     background-color: rgb(215, 211, 211);
     padding: 10px;
-    /* position: relative; */
     width: 400px;
-    min-height: 400px;
+    /* min-height: 400px; */
     height: 400px;
+}
+
+.brass-outer-card{
+
+    border-radius: 100px;
+}
+
+.brass-product-container{
+    text-align: center;
+    /* margin-left: 100px; */
 }
 
 .brass-product-image-container img{
 
     min-width: 100%;
-    min-height: 100%;
+    max-height: auto;
     height: 100%;
     /* position: absolute; */
     /* object-fit: contain; */
@@ -2193,7 +2208,7 @@ ul.top-ecommerce-icons li a.closeMenu {
 }
 
 .our-banners-carousel .item {
-    #margin: 1px
+    margin: 1px;
 }
 
 .our-banners-carousel.item img {

@@ -224,139 +224,6 @@ function BrassProductById() {
                             </div>
                         </div>
                     </div>
-
-
-                    {/* <div className="container">
-                        <div className="row marB10">
-                            <div className="prod-info-section">
-                                <div className="clearfix">
-                                    <div className="col-md-12">
-                                        <div className="block-caption">
-                                            <div className="left-title">
-                                                <h2>Product Discription <span className="heading-border-2"></span></h2>
-                                            </div>
-                                            <p>{data.product_description}</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div className="row marB10">
-                            <div className="prod-info-section">
-                                <div className="clearfix">
-                                    <div className="col-md-12">
-                                        <div className="block-caption">
-                                            <div className="left-title">
-                                                <h2>Product Range <span className="heading-border-2"></span></h2>
-                                                <div className="clear"></div>
-                                            </div>
-                                            <p>{data.product_range}</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div className="row marB10">
-                            <div className="prod-info-section">
-                                <div className="clearfix">
-                                    <div className="col-md-12">
-                                        <div className="block-caption">
-                                            <div className="left-title">
-                                                <h2>Product Sample Time <span className="heading-border-2"></span></h2>
-                                                <div className="clear"></div>
-                                            </div>
-                                            <p>{data.product_sample_time}</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div className="row marB10">
-                            <div className="prod-info-section">
-                                <div className="clearfix">
-                                    <div className="col-md-12">
-                                        <div className="block-caption">
-                                            <div className="left-title">
-                                                <h2>Product Threads<span className="heading-border-2"></span></h2>
-                                                <div className="clear"></div>
-                                            </div>
-                                            <p>{data.product_threads}</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        
-
-                        <div className="row marB10">
-                            <div className="prod-info-section">
-                                <div className="clearfix">
-                                    <div className="col-md-12">
-                                        <div className="block-caption">
-                                            <div className="left-title">
-                                                <h2>Product Tolerance<span className="heading-border-2"></span></h2>
-                                                <div className="clear"></div>
-                                            </div>
-                                            <p>{data.product_tolerance}</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div className="row marB10">
-                            <div className="prod-info-section">
-                                <div className="clearfix">
-                                    <div className="col-md-12">
-                                        <div className="block-caption">
-                                            <div className="left-title">
-                                                <h2>Product Drawing Format<span className="heading-border-2"></span></h2>
-                                                <div className="clear"></div>
-                                            </div>
-                                            <p>{data.product_drawing_formate}</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div className="row marB10">
-                            <div className="prod-info-section">
-                                <div className="clearfix">
-                                    <div className="col-md-12">
-                                        <div className="block-caption">
-                                            <div className="left-title">
-                                                <h2>Product Surface Treatment<span className="heading-border-2"></span></h2>
-                                                <div className="clear"></div>
-                                            </div>
-                                            <p>{data.product_surface_treatment}</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div className="row marB10">
-                            <div className="prod-info-section">
-                                <div className="clearfix">
-                                    <div className="col-md-12">
-                                        <div className="block-caption">
-                                            <div className="left-title">
-                                                <h2>Product Shipping<span className="heading-border-2"></span></h2>
-                                                <div className="clear"></div>
-                                            </div>
-                                            <p>{data.product_shipping}</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div> */}
                 </section >
                 {/* <!--//==product Description End==//--> */}
             </>
@@ -369,9 +236,9 @@ function BrassProductById() {
 
             {/* <!--//=========product Detail Start=========//--> */}
             <section className="collection-section padT100">
-                <div className="container">
-                    <div className="row">
-                        <div className="col-md-6 col-sm-8">
+                <div className="container-fluid">
+                    <div className="row brass-product-container">
+                        <div className="col-md-3 col-sm-12 mr-1 brass-outer-card">
                             <div className="latest-collection-item">
                                 <div className="wa-collection">
                                     <div className="wa-collection-thumbnail item our-collection-item wa-item brass-product-image-container">
@@ -381,7 +248,7 @@ function BrassProductById() {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-md-6 col-sm-4">
+                        <div className="col-md-3 col-sm-12 brass-outer-card">
                             <div className="latest-collection-item">
                                 <div className="wa-collection">
                                     <div className="wa-collection-thumbnail item our-collection-item wa-item brass-product-image-container">
@@ -391,8 +258,8 @@ function BrassProductById() {
                                 </div>
                             </div>
                         </div>
-                        <div className="clear"></div>
-                        <div className="col-md-6 col-sm-4">
+                        {/* <div className="clear"></div> */}
+                        <div className="col-md-3 col-sm-12 brass-outer-card">
                             <div className="latest-collection-item">
                                 <div className="wa-collection">
                                     <div className="wa-collection-thumbnail item our-collection-item wa-item brass-product-image-container">
@@ -402,7 +269,7 @@ function BrassProductById() {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-md-6 col-sm-4">
+                        <div className="col-md-3 col-sm-12 brass-outer-card">
                             <div className="latest-collection-item">
                                 <div className="wa-collection">
                                     <div className="wa-collection-thumbnail item our-collection-item wa-item brass-product-image-container">

@@ -34,7 +34,7 @@ function BrassProducts() {
                                     </div>
                                     <div className="wa-products-caption">
                                         <h2>
-                                           <Link to="/products/brass/:id">{brass.product_name}</Link>
+                                           <Link to={"/products/brass/" + brass.product_id}>{brass.product_name}</Link>
                                         </h2>
                                         <div className="clear"></div>
                                     </div>

@@ -1,9 +1,9 @@
+import "../main.css";
+
 function OurTeam() {
     return (
         <>
-            <h1>
-                Team Page
-            </h1>
+
         </>
     )
 }
