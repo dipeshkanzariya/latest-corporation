@@ -1,6 +1,29 @@
 import "../main.css";
 import { Link } from 'react-router-dom';
+import { useEffect, useState } from "react";
+import { NavLink, useNavigate} from 'react-router-dom';
 function Home() {
+
+    const [data, setData] = useState([]);
+    const [isLoading, setisLoading] = useState(true);
+    // setLoding(false);
+     const navigate = useNavigate();
+  
+     useEffect(() => {
+      
+      fetch(
+        "https://uniqueadmin.latestcorporation.com/admin_latest_corporation/api/getContact.php",setisLoading(true)
+      )
+        .then((res) => {
+          return res.json();
+        })
+        .then((res) => {
+          setData(res.data);
+          setisLoading(false);
+          console.log(data);
+        });
+    
+  }, []);
     return (
         <>
 
@@ -16,8 +39,8 @@ function Home() {
     </div> */}
             {/* <!--//==Preloader End==//--> */}
             <section>
-                <div className="contact-line">
-                   jkgfdghjk
+                <div className="contact-line padL10">
+                   {data[0]?.contact_number1}
                 </div>
             </section>
 
